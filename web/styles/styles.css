@@ -19,7 +19,6 @@ body, html {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -36,7 +35,6 @@ body, html {
     margin-right: 10px;
 }
 
-
 .nav-links {
     display: flex;
     justify-content: flex-end;
@@ -48,6 +46,11 @@ body, html {
     font-weight: 500;
     font-size: 1.5rem;
     color: var(--green);
+    transition: all 0.8s;
+}
+
+.nav-links a:hover{
+    transform:translateY(-50%);
 }
 
 .hero-page {
@@ -55,12 +58,17 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: auto;
 }
 
 .logo {
     max-width: 100%;
     height: auto;
+    transition: all 1s;
+}
+.logo:hover
+{
+    transform: translateY(-10%);
 }
 
 .logo-text {
@@ -69,12 +77,13 @@ body, html {
     margin: 0;
     color: var(--green);
 }
+
 .logo-desc {
     color: var(--gray);
 }
 
 .logo-nav {
-    font-size: 2rem; /* Adjust as needed */
+    font-size: 2rem;
     color: var(--green);
 }
 
@@ -90,4 +99,48 @@ body, html {
 .sweet-brown {
 
     color: var(--brown);
+}
+
+.msn-stmt{
+    margin-top: 3%;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: var(--gray);
+}
+
+.button-scroller {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.button-scroller-content
+{
+    padding: 10% 0 0 0;
+}
+
+.circle-button {
+    width: 7rem;
+    height: 7rem;
+    font-size: 3rem;
+    border-radius: 50%;
+    margin-right: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.circle-button:hover
+{
+    transform: scale(1.5);
+}
+
+.placeholder
+{
+    margin-top: 3%;
+    padding: 10%;
+    background-color: grey;
 }

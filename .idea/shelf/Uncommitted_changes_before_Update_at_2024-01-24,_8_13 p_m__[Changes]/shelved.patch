@@ -1,0 +1,119 @@
+Index: web/pages/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Your Sweet Spot Life</title>\n    <link rel=\"stylesheet\" href=\"/web/styles/styles.css\">\n</head>\n<body>\n\n<nav class = \"nav-bar\">\n    <a href=\" \">Home</a>\n    <a href=\" \">Contact</a>\n    <a href=\" \">Sponsors</a>\n</nav>\n\n<div class = \"hero-page\">\n    <img src = \"/assets/yss_logo.png\" class = \"logo\">\n    <h1 class = \"logo-text\"> Your <span class = \"sweet-brown\">Sweet</span> Spot Life </h1>\n</div>\n\n</body>\n</html>\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/web/pages/index.html b/web/pages/index.html
+--- a/web/pages/index.html	(revision ab92105251b792309ab2957b18f0f02de782a92d)
++++ b/web/pages/index.html	(date 1706127399291)
+@@ -14,8 +14,16 @@
+ </nav>
+ 
+ <div class = "hero-page">
+-    <img src = "/assets/yss_logo.png" class = "logo">
+     <h1 class = "logo-text"> Your <span class = "sweet-brown">Sweet</span> Spot Life </h1>
++    <img src = "/assets/yss_logo.png" class = "logo">
++</div>
++
++<div class = "msn-stmt">
++    <h3> Watch it unfold before your eyes through our cross-Canada expedition, vibrant festival, storytelling
++        performance series, community development plan, informative documentary series and see our plans
++        for future developments. Be part of this transformative journey and help us celebrate the richness and
++        potential of Canadian society while fostering community and cultural enrichment. Your participation is
++        the key to making this journey a success!</h3>
+ </div>
+ 
+ </body>
+Index: web/index.html
+===================================================================
+diff --git a/web/index.html b/web/index.html
+deleted file mode 100644
+--- a/web/index.html	(revision 1b7198b6f604f907a5027bd50edab4456f65cee4)
++++ /dev/null	(revision 1b7198b6f604f907a5027bd50edab4456f65cee4)
+@@ -1,10 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <title>Title</title>
+-</head>
+-<body>
+-
+-</body>
+-</html>
+\ No newline at end of file
+Index: web/styles/styles.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Roboto:ital,wght@0,400;0,500;1,300;1,900&display=swap');\n\n:root {\n    --brown: #734a4b;\n    --green:#86be3e;\n}\n.nav-bar{\n    text-align: right;\n    margin-right: 3%;\n}\n.nav-bar a{\n    padding-left: 5%;\n    text-decoration: none;\n    font-family: \"Roboto\";\n    font-weight: 500;\n    font-size: 1.5rem;\n    color: var(--green);\n}\n\n.hero-page{\n    text-align: center;\n    justify-content: center;\n}\n.logo\n{\n    max-width: 100%;\n    max-height: 100%;\n}\n\n.logo-text\n{\n    font-family: \"Roboto\";\n    font-weight: 800;\n    font-size: 5rem;\n    margin-top: -2%;\n    color: var(--green);\n}\n.sweet-brown\n{\n    color: var(--brown);\n}\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/web/styles/styles.css b/web/styles/styles.css
+--- a/web/styles/styles.css	(revision ab92105251b792309ab2957b18f0f02de782a92d)
++++ b/web/styles/styles.css	(date 1706128512042)
+@@ -1,5 +1,4 @@
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Roboto:ital,wght@0,400;0,500;1,300;1,900&display=swap');
+-
+ :root {
+     --brown: #734a4b;
+     --green:#86be3e;
+@@ -23,16 +22,17 @@
+ }
+ .logo
+ {
+-    max-width: 100%;
+-    max-height: 100%;
++    margin-top: -5%;
++    max-width: 80%;
++    max-height: 80%;
+ }
+ 
+ .logo-text
+ {
++    padding-top: 5%;
+     font-family: "Roboto";
+     font-weight: 800;
+     font-size: 5rem;
+-    margin-top: -2%;
+     color: var(--green);
+ }
+ .sweet-brown
+@@ -40,3 +40,8 @@
+     color: var(--brown);
+ }
+ 
++.msn-stmt h3
++{
++    font-family: "Roboto";
++
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"640687f9-7aa5-4402-823d-c7923c3aca22\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/assets/yss_logo.png\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/web/index.html\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/web/pages/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/web/pages/index.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/web/styles/styles.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/web/styles/styles.css\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"HTML File\" />\n        <option value=\"CSS File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2bPK15XG0oZQEz5QKbH5biOeq37\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"DefaultHtmlFileTemplate\": \"HTML File\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"last_opened_file_path\": \"/Users/mac/Desktop/yoursweetspotlife/assets\",\n    \"list.type.of.created.stylesheet\": \"CSS\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/assets\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/web/pages\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"640687f9-7aa5-4402-823d-c7923c3aca22\" name=\"Changes\" comment=\"\" />\n      <created>1706111056323</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1706111056323</updated>\n      <workItem from=\"1706111057788\" duration=\"4993000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision ab92105251b792309ab2957b18f0f02de782a92d)
++++ b/.idea/workspace.xml	(date 1706144875656)
+@@ -6,6 +6,7 @@
+   <component name="ChangeListManager">
+     <list default="true" id="640687f9-7aa5-4402-823d-c7923c3aca22" name="Changes" comment="">
+       <change afterPath="$PROJECT_DIR$/assets/yss_logo.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/web/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/index.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/web/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/styles.css" afterDir="false" />
+@@ -66,7 +67,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1706111056323</updated>
+-      <workItem from="1706111057788" duration="4993000" />
++      <workItem from="1706111057788" duration="8232000" />
+     </task>
+     <servers />
+   </component>
