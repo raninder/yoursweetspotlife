@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="640687f9-7aa5-4402-823d-c7923c3aca22" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/yss_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/styles.css" afterDir="false" />
     </list>
@@ -29,6 +28,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2bPK15XG0oZQEz5QKbH5biOeq37" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,7 +42,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/mac/Desktop/yoursweetspotlife/assets",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/sartaj/Documents/GitHub/yoursweetspotlife",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -67,6 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706111056323</updated>
       <workItem from="1706111057788" duration="4993000" />
+      <workItem from="1706141225589" duration="2901000" />
     </task>
     <servers />
   </component>
