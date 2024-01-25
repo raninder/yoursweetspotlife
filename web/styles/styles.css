@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Roboto:ital,wght@0,400;0,500;1,300;1,900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --brown: #734a4b;
     --green: #86be3e;
@@ -119,28 +123,90 @@ body, html {
 .button-scroller-content
 {
     padding: 10% 0 0 0;
+    display: flex;
 }
 
 .circle-button {
-    width: 7rem;
-    height: 7rem;
-    font-size: 3rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     margin-right: 50px;
     border: none;
     outline: none;
     cursor: pointer;
+    align-items: center;
+    justify-content: center; /
     transition: all 0.5s;
 }
+.circle-button img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+    transition: all 1s;
+}
 
-.circle-button:hover
+
+.circle-button :hover
 {
     transform: scale(1.5);
 }
 
 .placeholder
 {
-    margin-top: 3%;
+    margin-top: 5%;
     padding: 10%;
     background-color: grey;
+}
+
+.footer{
+    text-align: center;
+}
+.footer-copyright{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+.social-media-set{
+    justify-content: center;
+    display:flex;
+    width: 100%;
+}
+.social-media-buttons{
+    justify-content: center;
+    padding: 7% 0 2% 2%;
+}
+.social-media-buttons button
+{
+    color: white;
+    width: 5rem; height: 5rem;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 30px;
+    font-size: 2rem;
+    padding-top: 1%;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+.social-media-buttons button:hover
+{
+    transform: translateY(-10%);
+    /*transform: scale(1.2);*/
+
+}
+.instagram{
+    background: linear-gradient(45deg, #7b2fff, #f01973);
+
+}
+.faecbook{
+    background-color: #1a6aff;
+}
+.twitter{
+  background-color: black;
+}
+.linkedin{
+    background-color: #0000a9;
 }
