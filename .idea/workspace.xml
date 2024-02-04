@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="640687f9-7aa5-4402-823d-c7923c3aca22" name="Changes" comment="">
+    <list default="true" id="640687f9-7aa5-4402-823d-c7923c3aca22" name="Changes" comment="changes.">
+      <change afterPath="$PROJECT_DIR$/assets/Linkedin_circle.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/insta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/linke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/styles/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/styles/contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/styles.css" afterDir="false" />
@@ -25,39 +32,52 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1b4e6a44-ad90-470f-8dad-91f4b380a4a4" />
+        <option name="url" value="https://github.com/roman-ahmadzeia/yoursweetspotlife.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2bPK15XG0oZQEz5QKbH5biOeq37" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/sartaj/Documents/GitHub/yoursweetspotlife",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sartajs-work&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sartaj/Documents/GitHub/yoursweetspotlife&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/web/pages" />
     </key>
   </component>
@@ -70,8 +90,47 @@
       <option name="presentableId" value="Default" />
       <updated>1706111056323</updated>
       <workItem from="1706111057788" duration="4993000" />
-      <workItem from="1706141225589" duration="2901000" />
+      <workItem from="1706141225589" duration="9605000" />
+      <workItem from="1706153164731" duration="2383000" />
+      <workItem from="1706203593569" duration="22000" />
+      <workItem from="1706204924958" duration="4000" />
+      <workItem from="1706565262088" duration="5546000" />
+      <workItem from="1706636454832" duration="4345000" />
+      <workItem from="1706740014696" duration="1498000" />
     </task>
+    <task id="LOCAL-00001" summary="css">
+      <option name="closed" value="true" />
+      <created>1706144638178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706144638178</updated>
+    </task>
+    <task id="LOCAL-00002" summary="changes.">
+      <option name="closed" value="true" />
+      <created>1706144710149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706144710149</updated>
+    </task>
+    <task id="LOCAL-00003" summary="changes.">
+      <option name="closed" value="true" />
+      <created>1706144732621</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706144732621</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changes.">
+      <option name="closed" value="true" />
+      <created>1706144840318</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706144840318</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +146,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="css" />
+    <MESSAGE value="changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="changes." />
   </component>
 </project>
