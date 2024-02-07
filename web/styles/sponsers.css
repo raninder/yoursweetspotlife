@@ -71,6 +71,12 @@ body, html {
     color: var(--green);
 }
 
+.logo-text1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: var(--off-gray);
+}
+
 .logo-desc {
     text-align: center;
     font-weight: 800;
@@ -96,136 +102,74 @@ body, html {
     align-items: center;
     text-decoration: none;
 }
+.sponsors-section {
+    text-align: center;
+    background-color: white;
+    padding: 50px 0;
+    margin-left: 12%;
+    width: 73%;
+}
 
-contact-info {
-    font-weight: 700;
+.section-title {
+    font-size: 3rem;
     color: var(--green);
+    margin-bottom: 20px;
 }
 
-
-.social-icons {
+.sponsor-container {
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    flex-direction: column; /* Stack sponsors vertically */
+    align-items: flex-start; /* Align sponsors to the left */
 }
 
-
-.social-icons img {
-    transition: transform 0.3s ease;
+.sponsor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align to the left */
+    margin-bottom: 50px;
 }
 
-
-.social-icons img:hover {
-    transform: scale(1.1);
-    cursor: pointer;
+.sponsor-content {
+    display: flex;
+    flex-direction: row; /* Align logo and description horizontally */
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Ensure the container takes full width */
 }
 
-
-.facebook {
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-    margin: 0 10px;
+.sponsor img {
+    margin-right: 20px; /* Adds space between the image and the description */
+    width: 200px; /* Adjust the image size as needed */
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 20%;
 }
 
-.instagram {
-    width: 110px;
-    height: 110px;
-    margin: 0 10px;
-    border-radius: 100000%;
+.sponsor-name {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: var(--brown);
+    align-self: flex-start;
+    margin-left: 16%;
+    margin-bottom: -4%;
+
 }
 
-.linkedin {
-    width: 110px;
-    height: 110px;
-    margin: 0 10px;
-    border-radius: 50%;
+.sponsor-info {
+    text-align: left;
+    flex: 1;
+}
+
+.sponsor-description {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--off-gray);
+    line-height: 40px;
+    margin-top: 5%;
 }
 
 .footer {
     padding: 20px;
     text-align: center;
-}
-
-
-.faq-section {
-    margin-top: 70px;
-    margin-bottom: -80px;
-    padding: 20px;
-    text-align: center;
-}
-
-.faq-title {
-    font-size: 5rem;
-    color: var(--green);
-    margin-bottom: 50px;
-}
-
-.faq-content {
-    margin-left: 5%;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.message {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 5px;
-    width: 80%;
-    padding-left: 10%;
-}
-
-.question, .answer {
-    border-radius: 20px;
-    padding: 10px 15px;
-    max-width: 60%;
-    font-size: 1.3rem;
-}
-
-.question {
-    background-color: #e0e0e0;
-    align-self: flex-start;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-
-.general-topic0 {
-    color: var(--off-gray);
-    margin-top: 10px;
-    font-size: 2rem ;
-    border-radius: 15px;
-    margin-bottom: 10px;
-    padding: 10px 15px;
-    font-weight: bold;
-}
-
-.general-topic {
-    color: var(--off-gray);
-    margin-top: 50px;
-    font-size: 2rem ;
-    border-radius: 15px;
-    margin-bottom: 10px;
-    padding: 10px 15px;
-    font-weight: bold;
-}
-
-
-.answer {
-    background-color: var(--green);
-    color: #FFFFFF;
-    align-self: flex-end;
-    font-weight: normal;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.faq-answer p {
-    font-size: 1.3rem;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    text-align: left;
 }
 
 .sweet-brown {

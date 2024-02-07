@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="640687f9-7aa5-4402-823d-c7923c3aca22" name="Changes" comment="changes.">
-      <change afterPath="$PROJECT_DIR$/assets/Linkedin_circle.svg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/insta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/linke.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pages/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/styles/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/styles/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Alchemy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/JustSandwiches.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/LoneValley.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Park.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/ThePark.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/sponsers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/styles/sponsers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-01-24__8_08_p_m___Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/contact.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +97,9 @@
       <workItem from="1706565262088" duration="5546000" />
       <workItem from="1706636454832" duration="4345000" />
       <workItem from="1706740014696" duration="1498000" />
+      <workItem from="1707086201474" duration="308000" />
+      <workItem from="1707252417715" duration="4372000" />
+      <workItem from="1707271335187" duration="4672000" />
     </task>
     <task id="LOCAL-00001" summary="css">
       <option name="closed" value="true" />
