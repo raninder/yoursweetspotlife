@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="640687f9-7aa5-4402-823d-c7923c3aca22" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-01-24,_8_14 p_m__[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-01-24__8_14p_m___Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/script/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +50,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -67,7 +71,14 @@
       <option name="presentableId" value="Default" />
       <updated>1706111056323</updated>
       <workItem from="1706111057788" duration="4993000" />
-      <workItem from="1706149829724" duration="12391000" />
+      <workItem from="1706149829724" duration="13515000" />
+      <workItem from="1706296492046" duration="15656000" />
+      <workItem from="1706884649065" duration="194000" />
+      <workItem from="1707229420731" duration="5172000" />
+      <workItem from="1707342925921" duration="85000" />
+      <workItem from="1707490422670" duration="10515000" />
+      <workItem from="1707605833054" duration="602000" />
+      <workItem from="1707695265547" duration="10611000" />
     </task>
     <servers />
   </component>
