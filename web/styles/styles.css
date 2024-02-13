@@ -356,6 +356,85 @@ body, html {
     height: 100%;
 }
 
+.yss-live-content .road-map div button img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.yss-live-content .road-map div button{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;
+    cursor: pointer;
+}
+
+
+.meta-narrative-content .road-map div button{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;
+    cursor: pointer;
+}
+.meta-narrative-content .road-map div button img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.community-development-content .road-map div button{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;
+    cursor: pointer;
+}
+.community-development-content .road-map div button img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.start-content .road-map div button{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;
+    cursor: pointer;
+}
+.start-content .road-map div button img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.marketplace-content .road-map div button{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;
+    cursor: pointer;
+}
+.marketplace-content .road-map div button img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+
+
 #about-content-1, #about-content-2, #about-content-3, #about-content-4, #about-content-5, #about-content-6{
     transition: all 1s;
 
@@ -375,9 +454,9 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.38); /* Semi-transparent black */
-    z-index: 999; /* Ensure it appears above other content */
-    display: none; /* Hide by default */
+    background-color: rgba(0, 0, 0, 0.38);
+    z-index: 999;
+    display: none;
 }
 
 .content {
@@ -422,3 +501,77 @@ body, html {
     color: var(--green);
 }
 
+
+
+#yslc-content-1, #yslc-content-2, #yslc-content-3, #yslc-content-4, #yslc-content-5, #yslc-content-6{
+    transition: all 1s;
+}
+#yslc-content-1:hover, #yslc-content-2:hover, #yslc-content-3:hover, #yslc-content-4:hover, #yslc-content-5:hover, #yslc-content-6:hover {
+    transform: scale(1.5);
+}
+
+#yslc-content-1-opened, #yslc-content-2-opened, #yslc-content-3-opened, #yslc-content-4-opened, #yslc-content-5-opened,  #yslc-content-6-opened {
+    display: none;
+}
+
+#meta-content-1, #meta-content-2, #meta-content-3, #meta-content-4, #meta-content-5, #meta-content-6{
+    transition: all 1s;
+}
+
+#meta-content-1:hover, #meta-content-2:hover, #meta-content-3:hover, #meta-content-4:hover, #meta-content-5:hover, #meta-content-6:hover {
+    transform: scale(1.5);
+}
+
+#meta-content-1-opened, #meta-content-2-opened, #meta-content-3-opened, #meta-content-4-opened, #meta-content-5-opened,  #meta-content-6-opened {
+    display: none;
+}
+
+
+#comdev-content-1, #comdev-content-2, #comdev-content-3, #comdev-content-4, #comdev-content-5, #comdev-content-6{
+    transition: all 1s;
+
+}
+#comdev-content-1:hover, #comdev-content-2:hover, #comdev-content-3:hover, #comdev-content-4:hover, #comdev-content-5:hover, #comdev-content-6:hover {
+    transform: scale(1.5);
+}
+
+
+#comdev-content-1-opened, #comdev-content-2-opened, #comdev-content-3-opened, #comdev-content-4-opened, #comdev-content-5-opened,  #comdev-content-6-opened {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+#start-content-1, #start-content-2, #start-content-3, #start-content-4, #start-content-5, #start-content-6{
+    transition: all 1s;
+
+}
+#start-content-1:hover, #start-content-2:hover, #start-content-3:hover, #start-content-4:hover, #start-content-5:hover, #start-content-6:hover {
+    transform: scale(1.5);
+}
+
+
+#start-content-1-opened, #start-content-2-opened, #start-content-3-opened, #start-content-4-opened, #start-content-5-opened,  #start-content-6-opened {
+    display: none;
+}
+
+
+
+#mp-content-1, #mp-content-2, #mp-content-3, #mp-content-4, #mp-content-5, #mp-content-6{
+    transition: all 1s;
+
+}
+#mp-content-1:hover, #mp-content-2:hover, #mp-content-3:hover, #mp-content-4:hover, #mp-content-5:hover, #mp-content-6:hover {
+    transform: scale(1.5);
+}
+
+
+#mp-content-1-opened, #mp-content-2-opened, #mp-content-3-opened, #mp-content-4-opened, #mp-content-5-opened,  #mp-content-6-opened {
+    display: none;
+}

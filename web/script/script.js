@@ -19,7 +19,6 @@
         ComDevContent.style.display = "none";
         StartContent.style.display = "none";
         MarketplaceContent.style.display = "none";
-
 });
 
     YssLiveButton.addEventListener('click', ()=> {
@@ -32,7 +31,6 @@
         MarketplaceContent.style.display = "none";
 
 });
-
     MetaNarButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
         YssLiveContent.style.display = "none";
@@ -43,19 +41,15 @@
         MarketplaceContent.style.display = "none";
 
     });
-
     ComDevButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
         YssLiveContent.style.display = "none";
         MetaNarContent.style.display = "none";
         ComDevContent.style.display = "block";
         document.getElementById('community-development-content').scrollIntoView({ behavior: 'smooth' });
-
         StartContent.style.display = "none";
         MarketplaceContent.style.display = "none";
-
     });
-
     StartButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
         YssLiveContent.style.display = "none";
@@ -63,11 +57,8 @@
         ComDevContent.style.display = "none";
         StartContent.style.display = "block";
         document.getElementById('start-content').scrollIntoView({ behavior: 'smooth' });
-
         MarketplaceContent.style.display = "none";
-
     });
-
     MarketplaceButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
         YssLiveContent.style.display = "none";
@@ -76,106 +67,122 @@
         StartContent.style.display = "none";
         MarketplaceContent.style.display = "block";
         document.getElementById('marketplace-content').scrollIntoView({ behavior: 'smooth' });
-
-
     });
 
-    // Get the button, overlay, and the opened content div
-    const button = document.getElementById('about-content-1');
-    const content = document.getElementById('about-content-1-opened');
     const overlay = document.getElementById('about-content-1-overlay');
+    function handleClickAbout(buttonId, contentId) {
+        const button = document.getElementById(buttonId);
+        const content = document.getElementById(contentId);
 
-    // Add click event listener to the button
-    button.addEventListener('click', () => {
-        // Toggle the display of the content and overlay
-        content.style.display = content.style.display === 'none' ? 'block' : 'none';
-        overlay.style.display = overlay.style.display === 'none' ? 'block' : 'none';
-    });
+        button.addEventListener('click', () => {
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
+            overlay.style.display = overlay.style.display === 'none' ? 'block' : 'none';
+        });
 
-    // Add click event listener to the overlay
-    overlay.addEventListener('click', () => {
-        // Hide the content and overlay
-        content.style.display = 'none';
-        overlay.style.display = 'none';
-    });
+        overlay.addEventListener('click', () => {
+            content.style.display = 'none';
+            overlay.style.display = 'none';
+        });
+    }
+    for (let i = 1; i <= 6; i++) {
+        handleClickAbout(`about-content-${i}`, `about-content-${i}-opened`);
+    }
 
-    const buttoncontenttwo = document.getElementById('about-content-2');
-    const aboutcontenttwo= document.getElementById('about-content-2-opened');
+    const yslcoverlay = document.getElementById('yslc-content-overlay');
+    function handleClickYslc(buttonId, contentId) {
+        const button = document.getElementById(buttonId);
+        const content = document.getElementById(contentId);
 
-    buttoncontenttwo.addEventListener('click', () => {
-        // Toggle the display of the content and overlay
-        aboutcontenttwo.style.display = aboutcontenttwo.style.display === 'none' ? 'block' : 'none';
-        overlay.style.display = overlay.style.display === 'none' ? 'block' : 'none';
-    });
+        button.addEventListener('click', () => {
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
+            yslcoverlay.style.display = yslcoverlay.style.display === 'none' ? 'block' : 'none';
+        });
 
-    // Add click event listener to the overlay
-    overlay.addEventListener('click', () => {
-        // Hide the content and overlay
-        aboutcontenttwo.style.display = 'none';
-        overlay.style.display = 'none';
-    });
-
-    const buttoncontentthree = document.getElementById('about-content-3');
-    const aboutcontentthree= document.getElementById('about-content-3-opened');
-
-    buttoncontentthree.addEventListener('click', () => {
-        // Toggle the display of the content and overlay
-        aboutcontentthree.style.display = aboutcontentthree.style.display === 'none' ? 'block' : 'none';
-        overlay.style.display = overlay.style.display === 'none' ? 'block' : 'none';
-    });
-
-    // Add click event listener to the overlay
-    overlay.addEventListener('click', () => {
-        // Hide the content and overlay
-        aboutcontentthree.style.display = 'none';
-        overlay.style.display = 'none';
-    });
-
-    const buttoncontentfour = document.getElementById('about-content-4');
-    const aboutcontentfour= document.getElementById('about-content-4-opened');
-
-    buttoncontentfour.addEventListener('click', () => {
-        // Toggle the display of the content and overlay
-        aboutcontentfour.style.display = aboutcontentfour.style.display === 'none' ? 'block' : 'none';
-        overlay.style.display = overlay.style.display === 'none' ? 'block' : 'none';
-    });
-
-    // Add click event listener to the overlay
-    overlay.addEventListener('click', () => {
-        // Hide the content and overlay
-        aboutcontentfour.style.display = 'none';
-        overlay.style.display = 'none';
-    });
+        yslcoverlay.addEventListener('click', () => {
+            content.style.display = 'none';
+            yslcoverlay.style.display = 'none';
+        });
+    }
+    for (let i = 1; i <= 6; i++) {
+        handleClickYslc(`yslc-content-${i}`, `yslc-content-${i}-opened`);
+    }
 
 
-    const buttoncontentfive = document.getElementById('about-content-5');
-    const aboutcontentfive= document.getElementById('about-content-5-opened');
 
-    buttoncontentfive.addEventListener('click', () => {
-        // Toggle the display of the content and overlay
-        aboutcontentfive.style.display = aboutcontentfive.style.display === 'none' ? 'block' : 'none';
-        overlay.style.display = overlay.style.display === 'none' ? 'block' : 'none';
-    });
+    const metacoverlay = document.getElementById('meta-content-overlay');
+    function handleClickMeta(buttonId, contentId) {
+        const button = document.getElementById(buttonId);
+        const content = document.getElementById(contentId);
 
-    // Add click event listener to the overlay
-    overlay.addEventListener('click', () => {
-        // Hide the content and overlay
-        aboutcontentfive.style.display = 'none';
-        overlay.style.display = 'none';
-    });
+        button.addEventListener('click', () => {
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
+            metacoverlay.style.display = metacoverlay.style.display === 'none' ? 'block' : 'none';
+        });
 
-    const buttoncontentsix = document.getElementById('about-content-6');
-    const aboutcontentsix= document.getElementById('about-content-6-opened');
+        metacoverlay.addEventListener('click', () => {
+            content.style.display = 'none';
+            metacoverlay.style.display = 'none';
+        });
+    }
+    for (let i = 1; i <= 6; i++) {
+        handleClickMeta(`meta-content-${i}`, `meta-content-${i}-opened`);
+    }
 
-    buttoncontentsix.addEventListener('click', () => {
-        // Toggle the display of the content and overlay
-        aboutcontentsix.style.display = aboutcontentsix.style.display === 'none' ? 'block' : 'none';
-        overlay.style.display = overlay.style.display === 'none' ? 'block' : 'none';
-    });
 
-    // Add click event listener to the overlay
-    overlay.addEventListener('click', () => {
-        // Hide the content and overlay
-        aboutcontentsix.style.display = 'none';
-        overlay.style.display = 'none';
-    });
+    const comdevoverlay = document.getElementById('comdev-content-overlay');
+    function handleClickComDev(buttonId, contentId) {
+        const button = document.getElementById(buttonId);
+        const content = document.getElementById(contentId);
+
+        button.addEventListener('click', () => {
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
+            comdevoverlay.style.display = comdevoverlay.style.display === 'none' ? 'block' : 'none';
+        });
+
+        comdevoverlay.addEventListener('click', () => {
+            content.style.display = 'none';
+            comdevoverlay.style.display = 'none';
+        });
+    }
+    for (let i = 1; i <= 6; i++) {
+        handleClickComDev(`comdev-content-${i}`, `comdev-content-${i}-opened`);
+    }
+
+    const startoverlay = document.getElementById('start-content-overlay');
+    function handleClickStart(buttonId, contentId) {
+        const button = document.getElementById(buttonId);
+        const content = document.getElementById(contentId);
+
+        button.addEventListener('click', () => {
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
+            startoverlay.style.display = startoverlay.style.display === 'none' ? 'block' : 'none';
+        });
+
+        startoverlay.addEventListener('click', () => {
+            content.style.display = 'none';
+            startoverlay.style.display = 'none';
+        });
+    }
+    for (let i = 1; i <= 6; i++) {
+        handleClickStart(`start-content-${i}`, `start-content-${i}-opened`);
+    }
+
+
+    const mpoverlay = document.getElementById('mp-content-overlay');
+    function handleClickMp(buttonId, contentId) {
+        const button = document.getElementById(buttonId);
+        const content = document.getElementById(contentId);
+
+        button.addEventListener('click', () => {
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
+            mpoverlay.style.display = mpoverlay.style.display === 'none' ? 'block' : 'none';
+        });
+
+        mpoverlay.addEventListener('click', () => {
+            content.style.display = 'none';
+            mpoverlay.style.display = 'none';
+        });
+    }
+    for (let i = 1; i <= 6; i++) {
+        handleClickMp(`mp-content-${i}`, `mp-content-${i}-opened`);
+    }
