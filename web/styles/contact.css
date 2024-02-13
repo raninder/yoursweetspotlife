@@ -246,15 +246,15 @@ body, html {
     color: var(--brown);
 }
 
-.footer{
-    margin-top: 5%;
-    padding: 0;
-    text-align: center;
-}
-.footer-copyright{
-    padding-top: 30%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-    font-size: 1rem;
-}
+/*.footer{*/
+/*    margin-top: 5%;*/
+/*    padding: 0;*/
+/*    text-align: center;*/
+/*}*/
+/*.footer-copyright{*/
+/*    padding-top: 30%;*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*    font-weight: lighter;*/
+/*    font-size: 1rem;*/
+/*}*/
 

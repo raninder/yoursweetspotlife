@@ -11,6 +11,11 @@
     const ComDevContent = document.getElementById("community-development-content");
     const StartContent = document.getElementById("start-content");
     const MarketplaceContent = document.getElementById("marketplace-content");
+    const FaqButton = document.getElementById("faq-button");
+    const FaqContent = document.getElementById("faq");
+    const SponsorButton = document.getElementById("sponsor-button");
+    const SponsorContent = document.getElementById("sponsor-page");
+
     aboutUsButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "block";
         document.getElementById('about-content').scrollIntoView({ behavior: 'smooth' });
@@ -18,8 +23,10 @@
         MetaNarContent.style.display = "none";
         ComDevContent.style.display = "none";
         StartContent.style.display = "none";
-        MarketplaceContent.style.display = "none";
-});
+        FaqContent.style.display = "none";
+        SponsorContent.style.display = "none";
+
+    });
 
     YssLiveButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
@@ -28,9 +35,10 @@
         MetaNarContent.style.display = "none";
         ComDevContent.style.display = "none";
         StartContent.style.display = "none";
-        MarketplaceContent.style.display = "none";
+        FaqContent.style.display = "none";
+        SponsorContent.style.display = "none";
 
-});
+    });
     MetaNarButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
         YssLiveContent.style.display = "none";
@@ -38,7 +46,8 @@
         document.getElementById('meta-narrative-content').scrollIntoView({ behavior: 'smooth' });
         ComDevContent.style.display = "none";
         StartContent.style.display = "none";
-        MarketplaceContent.style.display = "none";
+        FaqContent.style.display = "none";
+        SponsorContent.style.display = "none";
 
     });
     ComDevButton.addEventListener('click', ()=> {
@@ -48,7 +57,9 @@
         ComDevContent.style.display = "block";
         document.getElementById('community-development-content').scrollIntoView({ behavior: 'smooth' });
         StartContent.style.display = "none";
-        MarketplaceContent.style.display = "none";
+        FaqContent.style.display = "none";
+        SponsorContent.style.display = "none";
+
     });
     StartButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
@@ -57,17 +68,36 @@
         ComDevContent.style.display = "none";
         StartContent.style.display = "block";
         document.getElementById('start-content').scrollIntoView({ behavior: 'smooth' });
-        MarketplaceContent.style.display = "none";
+        FaqContent.style.display = "none";
+        SponsorContent.style.display = "none";
+
     });
-    MarketplaceButton.addEventListener('click', ()=> {
+
+    FaqButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
         YssLiveContent.style.display = "none";
         MetaNarContent.style.display = "none";
         ComDevContent.style.display = "none";
         StartContent.style.display = "none";
-        MarketplaceContent.style.display = "block";
-        document.getElementById('marketplace-content').scrollIntoView({ behavior: 'smooth' });
+        FaqContent.style.display = "block";
+        SponsorContent.style.display = "none";
+
+        document.getElementById('faq').scrollIntoView({ behavior: 'smooth' });
     });
+
+    SponsorButton.addEventListener('click', ()=> {
+        aboutUsContent.style.display = "none";
+        YssLiveContent.style.display = "none";
+        MetaNarContent.style.display = "none";
+        ComDevContent.style.display = "none";
+        StartContent.style.display = "none";
+        FaqContent.style.display = "none";
+        SponsorContent.style.display = "block";
+        document.getElementById('sponsor-page').scrollIntoView({ behavior: 'smooth' });
+    });
+
+
+
 
     const overlay = document.getElementById('about-content-1-overlay');
     function handleClickAbout(buttonId, contentId) {
@@ -165,24 +195,4 @@
     }
     for (let i = 1; i <= 6; i++) {
         handleClickStart(`start-content-${i}`, `start-content-${i}-opened`);
-    }
-
-
-    const mpoverlay = document.getElementById('mp-content-overlay');
-    function handleClickMp(buttonId, contentId) {
-        const button = document.getElementById(buttonId);
-        const content = document.getElementById(contentId);
-
-        button.addEventListener('click', () => {
-            content.style.display = content.style.display === 'none' ? 'block' : 'none';
-            mpoverlay.style.display = mpoverlay.style.display === 'none' ? 'block' : 'none';
-        });
-
-        mpoverlay.addEventListener('click', () => {
-            content.style.display = 'none';
-            mpoverlay.style.display = 'none';
-        });
-    }
-    for (let i = 1; i <= 6; i++) {
-        handleClickMp(`mp-content-${i}`, `mp-content-${i}-opened`);
     }

@@ -51,7 +51,7 @@ body, html {
     font-weight: 500;
     font-size: 1.5rem;
     color: var(--green);
-    transition: all 0.8s;
+    transition: all 0.5s;
 }
 
 .nav-links a:hover{
@@ -69,7 +69,7 @@ body, html {
 .logo {
     max-width: 100%;
     height: auto;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 .logo:hover
 {
@@ -107,11 +107,10 @@ body, html {
 }
 
 .msn-stmt{
-    margin-top: 6%;
     justify-content: center;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--gray);
 }
 
@@ -126,18 +125,19 @@ body, html {
 {
     padding: 10% 0 0 0;
     display: flex;
+    justify-content: center;
 }
 
 .circle-button {
-    width: 10rem;
-    height: 10rem;
+    width: 9rem;
+    height: 9rem;
     border-radius: 50%;
-    margin-right: 50px;
     border: none;
     outline: none;
     cursor: pointer;
     align-items: center;
-    justify-content: center; /
+    justify-content: center;
+    margin-right: 2rem;
     transition: all 0.5s;
 }
 .circle-button img {
@@ -145,7 +145,7 @@ body, html {
     height: 100%;
     border-radius: 50%;
     object-fit: fill;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 
@@ -258,6 +258,14 @@ body, html {
 
 #marketplace-content{
     display: none;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    margin-top: 5%;
+}
+
+#faq{
+    display:none;
     justify-content: center;
     text-align: center;
     height: auto;
@@ -436,7 +444,7 @@ body, html {
 
 
 #about-content-1, #about-content-2, #about-content-3, #about-content-4, #about-content-5, #about-content-6{
-    transition: all 1s;
+    transition: all 0.5s;
 
 }
 #about-content-1:hover, #about-content-2:hover, #about-content-3:hover, #about-content-4:hover, #about-content-5:hover, #about-content-6:hover {
@@ -504,7 +512,7 @@ body, html {
 
 
 #yslc-content-1, #yslc-content-2, #yslc-content-3, #yslc-content-4, #yslc-content-5, #yslc-content-6{
-    transition: all 1s;
+    transition: all 0.5s;
 }
 #yslc-content-1:hover, #yslc-content-2:hover, #yslc-content-3:hover, #yslc-content-4:hover, #yslc-content-5:hover, #yslc-content-6:hover {
     transform: scale(1.5);
@@ -515,7 +523,7 @@ body, html {
 }
 
 #meta-content-1, #meta-content-2, #meta-content-3, #meta-content-4, #meta-content-5, #meta-content-6{
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 #meta-content-1:hover, #meta-content-2:hover, #meta-content-3:hover, #meta-content-4:hover, #meta-content-5:hover, #meta-content-6:hover {
@@ -528,7 +536,7 @@ body, html {
 
 
 #comdev-content-1, #comdev-content-2, #comdev-content-3, #comdev-content-4, #comdev-content-5, #comdev-content-6{
-    transition: all 1s;
+    transition: all 0.5s;
 
 }
 #comdev-content-1:hover, #comdev-content-2:hover, #comdev-content-3:hover, #comdev-content-4:hover, #comdev-content-5:hover, #comdev-content-6:hover {
@@ -549,7 +557,7 @@ body, html {
 
 
 #start-content-1, #start-content-2, #start-content-3, #start-content-4, #start-content-5, #start-content-6{
-    transition: all 1s;
+    transition: all 0.5s;
 
 }
 #start-content-1:hover, #start-content-2:hover, #start-content-3:hover, #start-content-4:hover, #start-content-5:hover, #start-content-6:hover {
@@ -564,7 +572,7 @@ body, html {
 
 
 #mp-content-1, #mp-content-2, #mp-content-3, #mp-content-4, #mp-content-5, #mp-content-6{
-    transition: all 1s;
+    transition: all 0.5s;
 
 }
 #mp-content-1:hover, #mp-content-2:hover, #mp-content-3:hover, #mp-content-4:hover, #mp-content-5:hover, #mp-content-6:hover {
@@ -574,4 +582,132 @@ body, html {
 
 #mp-content-1-opened, #mp-content-2-opened, #mp-content-3-opened, #mp-content-4-opened, #mp-content-5-opened,  #mp-content-6-opened {
     display: none;
+}
+
+.hero-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 5%;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-text {
+    font-weight: 800;
+    font-size: 3rem;
+    margin: 0;
+    color: var(--green);
+}
+
+.logo-text1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: var(--off-gray);
+}
+.logo-desc {
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.7rem;
+    color: var(--off-gray);
+    width: 80%;
+}
+
+.email {
+    text-align: center;
+    font-weight: 800;
+    font-size: 2rem;
+    color: var(--off-gray);
+}
+
+.logo-nav {
+    font-size: 2rem;
+    color: var(--green);
+}
+
+.home-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.sponsors-section {
+    text-align: center;
+    background-color: white;
+    padding: 50px 0;
+    margin-left: 12%;
+    width: 73%;
+}
+
+.section-title {
+    font-size: 3rem;
+    color: var(--green);
+    margin-bottom: 20px;
+}
+
+.sponsor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; / Align sponsors to the left /
+}
+
+.sponsor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; / Align to the left /
+    margin-bottom: 50px;
+}
+
+.sponsor-content {
+    display: flex;
+    flex-direction: row; / Align logo and description horizontally /
+    align-items: center; / Center items vertically /
+    width: 100%; / Ensure the container takes full width /
+}
+
+.sponsor img {
+    margin-right: 20px;
+    width: 7em;
+    height: 7em;
+    border: 2px solid #000;
+    border-radius: 20%;
+}
+
+.sponsor-name {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: var(--brown);
+    align-self: flex-start;
+    margin-left: 16%;
+    margin-bottom: -4%;
+
+}
+
+.sponsor-info {
+    text-align: left;
+    flex: 1;
+}
+
+.sponsor-description {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--off-gray);
+    line-height: 40px;
+    margin-top: 5%;
+}
+
+.sponsor-page{
+    display:none;
+}
+
+.sponsor-embed-title
+{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--green);
+    margin-bottom: 20px;
 }
