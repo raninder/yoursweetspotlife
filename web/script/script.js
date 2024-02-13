@@ -1,4 +1,4 @@
-
+// Buttons and Contents Variables
     const aboutUsButton = document.getElementById('about-us-button');
     const YssLiveButton = document.getElementById('yss-live-button');
     const aboutUsContent = document.getElementById('about-content');
@@ -16,6 +16,7 @@
     const SponsorButton = document.getElementById("sponsor-button");
     const SponsorContent = document.getElementById("sponsor-page");
 
+    // Button Functionalities for road map project selector
     aboutUsButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "block";
         document.getElementById('about-content').scrollIntoView({ behavior: 'smooth' });
@@ -27,7 +28,6 @@
         SponsorContent.style.display = "none";
 
     });
-
     YssLiveButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
         YssLiveContent.style.display = "block";
@@ -37,7 +37,6 @@
         StartContent.style.display = "none";
         FaqContent.style.display = "none";
         SponsorContent.style.display = "none";
-
     });
     MetaNarButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
@@ -48,7 +47,6 @@
         StartContent.style.display = "none";
         FaqContent.style.display = "none";
         SponsorContent.style.display = "none";
-
     });
     ComDevButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
@@ -59,7 +57,6 @@
         StartContent.style.display = "none";
         FaqContent.style.display = "none";
         SponsorContent.style.display = "none";
-
     });
     StartButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
@@ -70,7 +67,6 @@
         document.getElementById('start-content').scrollIntoView({ behavior: 'smooth' });
         FaqContent.style.display = "none";
         SponsorContent.style.display = "none";
-
     });
 
     FaqButton.addEventListener('click', ()=> {
@@ -81,10 +77,8 @@
         StartContent.style.display = "none";
         FaqContent.style.display = "block";
         SponsorContent.style.display = "none";
-
         document.getElementById('faq').scrollIntoView({ behavior: 'smooth' });
     });
-
     SponsorButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
         YssLiveContent.style.display = "none";
@@ -97,18 +91,17 @@
     });
 
 
+    // Functionalities for Road Map Node Selectors Per Project
 
-
+    // For About Us
     const overlay = document.getElementById('about-content-1-overlay');
     function handleClickAbout(buttonId, contentId) {
         const button = document.getElementById(buttonId);
         const content = document.getElementById(contentId);
-
         button.addEventListener('click', () => {
             content.style.display = content.style.display === 'none' ? 'block' : 'none';
             overlay.style.display = overlay.style.display === 'none' ? 'block' : 'none';
         });
-
         overlay.addEventListener('click', () => {
             content.style.display = 'none';
             overlay.style.display = 'none';
@@ -118,16 +111,15 @@
         handleClickAbout(`about-content-${i}`, `about-content-${i}-opened`);
     }
 
+    // For YSS Live
     const yslcoverlay = document.getElementById('yslc-content-overlay');
     function handleClickYslc(buttonId, contentId) {
         const button = document.getElementById(buttonId);
         const content = document.getElementById(contentId);
-
         button.addEventListener('click', () => {
             content.style.display = content.style.display === 'none' ? 'block' : 'none';
             yslcoverlay.style.display = yslcoverlay.style.display === 'none' ? 'block' : 'none';
         });
-
         yslcoverlay.addEventListener('click', () => {
             content.style.display = 'none';
             yslcoverlay.style.display = 'none';
@@ -137,18 +129,15 @@
         handleClickYslc(`yslc-content-${i}`, `yslc-content-${i}-opened`);
     }
 
-
-
+    // For Meta Narrative
     const metacoverlay = document.getElementById('meta-content-overlay');
     function handleClickMeta(buttonId, contentId) {
         const button = document.getElementById(buttonId);
         const content = document.getElementById(contentId);
-
         button.addEventListener('click', () => {
             content.style.display = content.style.display === 'none' ? 'block' : 'none';
             metacoverlay.style.display = metacoverlay.style.display === 'none' ? 'block' : 'none';
         });
-
         metacoverlay.addEventListener('click', () => {
             content.style.display = 'none';
             metacoverlay.style.display = 'none';
@@ -158,17 +147,15 @@
         handleClickMeta(`meta-content-${i}`, `meta-content-${i}-opened`);
     }
 
-
+    // For Community Development
     const comdevoverlay = document.getElementById('comdev-content-overlay');
     function handleClickComDev(buttonId, contentId) {
         const button = document.getElementById(buttonId);
         const content = document.getElementById(contentId);
-
         button.addEventListener('click', () => {
             content.style.display = content.style.display === 'none' ? 'block' : 'none';
             comdevoverlay.style.display = comdevoverlay.style.display === 'none' ? 'block' : 'none';
         });
-
         comdevoverlay.addEventListener('click', () => {
             content.style.display = 'none';
             comdevoverlay.style.display = 'none';
@@ -178,16 +165,15 @@
         handleClickComDev(`comdev-content-${i}`, `comdev-content-${i}-opened`);
     }
 
+    // For S.T.A.R.T
     const startoverlay = document.getElementById('start-content-overlay');
     function handleClickStart(buttonId, contentId) {
         const button = document.getElementById(buttonId);
         const content = document.getElementById(contentId);
-
         button.addEventListener('click', () => {
             content.style.display = content.style.display === 'none' ? 'block' : 'none';
             startoverlay.style.display = startoverlay.style.display === 'none' ? 'block' : 'none';
         });
-
         startoverlay.addEventListener('click', () => {
             content.style.display = 'none';
             startoverlay.style.display = 'none';

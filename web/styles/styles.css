@@ -106,7 +106,7 @@ body, html {
     color: var(--brown);
 }
 
-.msn-stmt{
+.proj-desc{
     justify-content: center;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -129,6 +129,7 @@ body, html {
 }
 
 .circle-button {
+    position: relative;
     width: 9rem;
     height: 9rem;
     border-radius: 50%;
@@ -138,7 +139,6 @@ body, html {
     align-items: center;
     justify-content: center;
     margin-right: 2rem;
-    transition: all 0.5s;
 }
 .circle-button img {
     width: 100%;
@@ -149,11 +149,26 @@ body, html {
 }
 
 
-.circle-button :hover
+.circle-button img:hover, .circle-button div:hover
 {
     transform: scale(1.5);
 }
 
+.circle-button span {
+    font-family: 'Roboto';
+    font-size: 2em;
+    font-weight: 800;
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.circle-button:hover span {
+    opacity: 1;
+}
 
 .footer{
     text-align: center;
@@ -274,6 +289,7 @@ body, html {
 
 .road-map{
     margin-left: 15%;
+    margin-top: 3%;
     text-align: center;
     justify-content: center;
     display: grid;
@@ -325,27 +341,32 @@ body, html {
     text-align: center;
 }
 .about-content .road-map div{
-    background-color: blue;
+    background: linear-gradient(#71bb23, #115411);;
 }
 
 .yss-live-content .road-map div{
-    background-color: purple;
+    background: linear-gradient(#009eff, #002c85);;
+
 }
 
 .meta-narrative-content .road-map div{
-    background-color: red;
+    background: linear-gradient(#ece560, #ffb900);;
+
 }
 
 .community-development-content .road-map div{
-    background-color: green;
+    background: linear-gradient(#009eff, #002c85);;
+
 }
 
 .start-content .road-map div{
-    background-color: yellow;
+    background: linear-gradient(#009eff, #002c85);;
+
 }
 
 .marketplace-content .road-map div{
-    background-color: orange;
+    background: linear-gradient(#009eff, #002c85);;
+
 }
 
 .about-content .road-map div button{
@@ -673,14 +694,13 @@ body, html {
     margin-right: 20px;
     width: 7em;
     height: 7em;
-    border: 2px solid #000;
     border-radius: 20%;
 }
 
 .sponsor-name {
     font-weight: bold;
     font-size: 1.8rem;
-    color: var(--brown);
+    color: black;
     align-self: flex-start;
     margin-left: 16%;
     margin-bottom: -4%;
