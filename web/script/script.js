@@ -16,7 +16,23 @@
     const SponsorButton = document.getElementById("sponsor-button");
     const SponsorContent = document.getElementById("sponsor-page");
 
-    // Button Functionalities for road map project selector
+    let logoText = document.querySelector(".logo");
+    let audio = document.createElement("audio");
+    audio.src = "/media/sounds/ui_chime.mp3";
+    document.body.appendChild(audio);
+
+    logoText.onmouseover = () => {
+        let resp = audio.play();
+        if (resp!== undefined) {
+            resp.then(_ => {
+                // autoplay starts!
+            }).catch(error => {
+                //show error
+            });
+        }
+    }
+
+// Button Functionalities for road map project selector
     aboutUsButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "block";
         document.getElementById('about-content').scrollIntoView({ behavior: 'smooth' });
@@ -143,7 +159,7 @@
             metacoverlay.style.display = 'none';
         });
     }
-    for (let i = 1; i <= 6; i++) {
+    for (let i = 1; i <= 5; i++) {
         handleClickMeta(`meta-content-${i}`, `meta-content-${i}-opened`);
     }
 
@@ -161,7 +177,8 @@
             comdevoverlay.style.display = 'none';
         });
     }
-    for (let i = 1; i <= 6; i++) {
+    // Change increment ie: i <= x for how many nodes exist in the road map (x)
+    for (let i = 1; i <= 2; i++) {
         handleClickComDev(`comdev-content-${i}`, `comdev-content-${i}-opened`);
     }
 

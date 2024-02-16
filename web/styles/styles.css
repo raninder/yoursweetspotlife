@@ -355,7 +355,7 @@ body, html {
 }
 
 .community-development-content .road-map div{
-    background: linear-gradient(#009eff, #002c85);;
+    background: linear-gradient(#ff0000, #a52a2a);;
 
 }
 
@@ -490,6 +490,7 @@ body, html {
 
 .content {
     position: fixed;
+    border-radius: 12.5%/25%;
     height: 70%;
     width: 70%;
     top: 50%;
@@ -528,6 +529,15 @@ body, html {
 .learn-more-button:hover
 {
     color: var(--green);
+}
+
+.learn-more
+{
+    transition: all 0.5s;
+}
+.learn-more:hover
+{
+    transform:translateY(-50%);
 }
 
 
@@ -731,3 +741,29 @@ body, html {
     color: var(--green);
     margin-bottom: 20px;
 }
+
+.about-icon-titles, .meta-icon-titles, .cdc-icon-titles, .start-icon-titles
+{
+    padding-top: 30%;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+
+#comdev-content-2-opened {
+    position: fixed;
+    border-radius: 12.5%/25%;
+    height: 70%;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: white;
+    color: black;
+}
+
+
+
+#ui_chime { display: none }
