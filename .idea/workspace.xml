@@ -4,17 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="640687f9-7aa5-4402-823d-c7923c3aca22" name="Changes" comment="changes.">
+=======
+    <list default="true" id="640687f9-7aa5-4402-823d-c7923c3aca22" name="Changes" comment="">
+>>>>>>> Stashed changes
       <change afterPath="$PROJECT_DIR$/assets/Alchemy.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/JustSandwiches.jpeg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/LoneValley.jpeg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/Park.png" afterDir="false" />
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/assets/ThePark.jpeg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/pages/sponsers.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/styles/sponsers.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-01-24__8_08_p_m___Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/contact.css" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/web/styles/sponsers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/sponsors.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/sponsors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/script/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/styles.css" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +61,10 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
+<<<<<<< Updated upstream
+=======
+  &quot;customColor&quot;: &quot;&quot;,
+>>>>>>> Stashed changes
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2bPK15XG0oZQEz5QKbH5biOeq37" />
@@ -61,8 +78,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+<<<<<<< Updated upstream
     &quot;git-widget-placeholder&quot;: &quot;sartajs-work&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/sartaj/Documents/GitHub/yoursweetspotlife&quot;,
+=======
+    &quot;git-widget-placeholder&quot;: &quot;romans-work&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mac/Desktop/yoursweetspotlife/assets&quot;,
+>>>>>>> Stashed changes
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -78,7 +100,14 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
+<<<<<<< Updated upstream
       <recent name="$PROJECT_DIR$/web/pages" />
+=======
+      <recent name="$PROJECT_DIR$/assets/JustSandwiches.jpeg" />
+      <recent name="$PROJECT_DIR$/JustSandwiches.png" />
+      <recent name="$PROJECT_DIR$/Alchemyy.png" />
+      <recent name="$PROJECT_DIR$/Alchemy.png" />
+>>>>>>> Stashed changes
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -90,6 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706111056323</updated>
       <workItem from="1706111057788" duration="4993000" />
+<<<<<<< Updated upstream
       <workItem from="1706141225589" duration="9605000" />
       <workItem from="1706153164731" duration="2383000" />
       <workItem from="1706203593569" duration="22000" />
@@ -100,6 +130,20 @@
       <workItem from="1707086201474" duration="308000" />
       <workItem from="1707252417715" duration="4372000" />
       <workItem from="1707271335187" duration="4672000" />
+=======
+      <workItem from="1706149829724" duration="13515000" />
+      <workItem from="1706296492046" duration="15656000" />
+      <workItem from="1706884649065" duration="194000" />
+      <workItem from="1707229420731" duration="5172000" />
+      <workItem from="1707342925921" duration="85000" />
+      <workItem from="1707490422670" duration="10515000" />
+      <workItem from="1707605833054" duration="602000" />
+      <workItem from="1707695265547" duration="10611000" />
+      <workItem from="1707787219647" duration="9000" />
+      <workItem from="1707787333191" duration="3199000" />
+      <workItem from="1707790572171" duration="294000" />
+      <workItem from="1707790870918" duration="3954000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="css">
       <option name="closed" value="true" />
@@ -144,7 +188,23 @@
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< Updated upstream
             <State />
+=======
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="sartajs-work" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+>>>>>>> Stashed changes
           </value>
         </entry>
       </map>
