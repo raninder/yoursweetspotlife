@@ -542,14 +542,14 @@ body, html {
 
 
 
-#yslc-content-1, #yslc-content-2, #yslc-content-3, #yslc-content-4, #yslc-content-5, #yslc-content-6{
+#yslc-content-1, #yslc-content-2, #yslc-content-3{
     transition: all 0.5s;
 }
-#yslc-content-1:hover, #yslc-content-2:hover, #yslc-content-3:hover, #yslc-content-4:hover, #yslc-content-5:hover, #yslc-content-6:hover {
+#yslc-content-1:hover, #yslc-content-2:hover, #yslc-content-3:hover {
     transform: scale(1.5);
 }
 
-#yslc-content-1-opened, #yslc-content-2-opened, #yslc-content-3-opened, #yslc-content-4-opened, #yslc-content-5-opened,  #yslc-content-6-opened {
+#yslc-content-1-opened, #yslc-content-2-opened, #yslc-content-3-opened {
     display: none;
 }
 
@@ -742,7 +742,7 @@ body, html {
     margin-bottom: 20px;
 }
 
-.about-icon-titles, .meta-icon-titles, .cdc-icon-titles, .start-icon-titles
+.about-icon-titles, .meta-icon-titles, .cdc-icon-titles, .start-icon-titles, .yss-live-icon-titles
 {
     padding-top: 30%;
     text-align: center;
@@ -764,6 +764,84 @@ body, html {
     color: black;
 }
 
+#yslc-content-1-opened h1 {
+    font-size: 1.6rem;
+    margin-bottom: -30px;
+}
 
+#yslc-content-1-opened p {
+    font-size: 1.4rem;
+}
 
+.yslc-content-1-img {
+    height: 40%;
+    margin-top: -45px;
+}
+
+#yslc-content-2-opened h1 {
+    font-size: 1.6rem;
+    margin-bottom: -30px;
+}
+
+#yslc-content-2-opened p {
+    font-size: 1.4rem;
+}
+
+#yslc-content-2-opened h3 {
+    font-size: 1.6rem;
+    margin-top: -20px;
+    margin-bottom: -5px;
+}
+
+#yslc-content-2-opened li {
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: 5px;
+    line-height: 25px;
+}
+
+#yslc-content-2-opened li strong{
+    font-size: 1.3rem;
+}
+
+#yslc-content-3-opened {
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#yslc-content-3-opened h1 {
+    margin-bottom: 25px;
+}
+
+#yslc-content-3-opened h2 {
+    font-size: 1.4rem;
+    text-align: left;
+    margin-bottom: 1px;
+}
+
+#yslc-content-3-opened medium {
+    font-size: 1.15rem;
+    text-align: left;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inner-yss-live-content-3
+{
+    padding-top: 5%;
+}
+
+.email
+{
+    text-decoration: none;
+    color: white;
+    background-color: var(--green);
+}
 #ui_chime { display: none }
+
+.to-sponsors
+{
+    text-decoration: none;
+}

@@ -141,7 +141,7 @@
             yslcoverlay.style.display = 'none';
         });
     }
-    for (let i = 1; i <= 6; i++) {
+    for (let i = 1; i <= 3; i++) {
         handleClickYslc(`yslc-content-${i}`, `yslc-content-${i}-opened`);
     }
 

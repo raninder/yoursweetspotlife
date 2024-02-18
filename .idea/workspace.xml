@@ -7,6 +7,7 @@
     <list default="true" id="640687f9-7aa5-4402-823d-c7923c3aca22" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/sponsors.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/sponsors.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/script/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/styles.css" afterDir="false" />
     </list>
@@ -19,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -58,6 +59,7 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/web/pages" />
     </key>
   </component>
@@ -88,7 +90,7 @@
       <workItem from="1707490422670" duration="10515000" />
       <workItem from="1707605833054" duration="602000" />
       <workItem from="1707695265547" duration="34003000" />
-      <workItem from="1707836248847" duration="11991000" />
+      <workItem from="1707836248847" duration="22142000" />
     </task>
     <servers />
   </component>

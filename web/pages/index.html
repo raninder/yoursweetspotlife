@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Permissions-Policy" content="payment *">
     <title>Your Sweet Spot Life</title>
     <link rel="stylesheet" href="/web/styles/styles.css">
     <link rel="stylesheet" href="/web/styles/contact.css">
@@ -313,9 +314,9 @@
         <img src="/assets/asset6.png" class ="about-content-6-img">
 
     </div>
-    <div class = learn-more>
-        <a href="about.html" class = "learn-more-button">Learn More</a>
-    </div>
+<!--    <div class = learn-more>-->
+<!--        <a href="about.html" class = "learn-more-button">Learn More</a>-->
+<!--    </div>-->
 
 
 </div>
@@ -323,35 +324,70 @@
 <!-- YSS LIVE ROAD MAP CONTENT-->
 <div class = "yss-live-content" id = "yss-live-content">
     <h1 class = "project-title"> Y.S.S Live </h1>
+    <div class = "proj-desc">
+        <h3>
+            Join us in this multifaceted project, as we aim to celebrate Canadian culture,<br> drive positive change,
+            and offer comprehensive insights into various aspects of Canadian life, history,<br> and community
+            development.
+        </h3>
+    </div>
     <div class ="road-map">
 <!--        Icons inside the road map-->
-        <div class = "circle-1" id = "yslc-content-1"></div>
-        <div class = "circle-2" id  = "yslc-content-2"></div>
-        <div class = "circle-3" id  = "yslc-content-3"></div>
-        <div class = "circle-4" id = "yslc-content-4"></div>
-        <div class = "circle-5" id = "yslc-content-5"></div>
-        <div class = "circle-6" id = "yslc-content-6"></div>
+        <div class = "circle-1" id = "yslc-content-1"><h1 class = "yss-live-icon-titles">YSS Live</h1></div>
+        <div class = "circle-2" id  = "yslc-content-2"><h1 class = "yss-live-icon-titles">Stage 1</h1></div>
+        <div class = "circle-3" id  = "yslc-content-3"><h1 class = "yss-live-icon-titles">Goals</h1></div>
     </div>
     <div class="overlay" id="yslc-content-overlay"></div>
     <div class = "content" id = "yslc-content-1-opened">
+        <h1>10 provinces and three territories coast to coast</h1>
+        <p>
+            Join us on a remarkable journey across Canada, starting in Newfoundland and moving through the Maritime Provinces. We'll head west across the country to British Columbia, then go north to the Yukon, Northwest Territories, and Nunavut, before returning to Labrador. In each place, we'll discover local gems and work with communities to create lasting improvements. We aim to boost local economies, promote tourism, and support community renewal. Our goal is to work together with these communities for sustainable development and a prosperous future for all.
+        </p>
+        <img src="/assets/travel.png" class ="yslc-content-1-img">
     </div>
     <div class = "content" id = "yslc-content-2-opened">
-
+        <h1>Stage 1: Sponsor us and get involved!</h1>
+        <p>
+            Join our mission to celebrate Canadian culture and make a difference across the country. We offer a unique opportunity for sponsors and volunteers to help shape our journey from vibrant festivals to community development.
+        </p>
+        <h3>Why Join Us?</h3>
+        <ul>
+            <li><strong>Make an Impact:</strong> Your support helps us share Canada's diverse stories, support local communities, and promote cultural enrichment.</li>
+            <li><strong>Gain Visibility:</strong> Sponsors get meaningful exposure across our events, online presence, and documentary series.</li>
+            <li><strong>Connect and Grow:</strong> Volunteers gain hands-on experience, learn new skills, and connect with communities nationwide.</li>
+        </ul>
     </div>
     <div class = "content" id = "yslc-content-3-opened">
+     <div class = "inner-yss-live-content-3">
+         <h2>Craftsmanship</h2>
+         <medium>During our journey, we'll spotlight regional craftsmanship, blending traditional and modern techniques. Partnering with local artisans, we'll preserve cultural heritage.        </medium>
 
-    </div>
-    <div class = "content" id = "yslc-content-4-opened">
+         <h2>Innovation</h2>
+         <medium>We'll partner with local communities to find new ideas, like sustainable tech, fresh business models, and creative solutions. This helps grow the economy and environment.        </medium>
 
+         <h2>Education</h2>
+         <medium>We'll create educational programs in local areas, offering skill development, knowledge sharing, and access to resources. This empowers residents to shape their future.        </medium>
+
+         <h2>Sustainability</h2>
+         <medium>We'll partner with businesses that prioritize affordable and simple creation processes, ensuring practicality, functionality, and benefits for individuals, families, communities, and the environment in the long term.        </medium>
+     </div>
     </div>
-    <div class = "content" id = "yslc-content-5-opened"></div>
-    <div class = "content" id = "yslc-content-6-opened"></div>
-    <a href="about.html" class = "learn-more-button">Learn More</a>
+<!--    <a href="about.html" class = "learn-more-button">Learn More</a>-->
 </div>
 
 <!-- META NARRATIVE ROAD MAP CONTENT-->
 <div class = "meta-narrative-content" id = "meta-narrative-content">
     <h1 class = "project-title">Meta Narrative Content</h1>
+    <div class = "proj-desc">
+        <h3>
+            Embark on a creative odyssey with Meta Narrative, where we unite diverse creators—from game developers to storytellers—to uplift <br>
+            communities and showcase their talents. Join us in crafting immersive experiences that transcend traditional boundaries, weaving narratives<br>
+            that resonate with the essence of our collective stories. Together, we'll forge new connections, amplify voices, and illuminate the transformative <br>
+            power of storytelling. Your unique perspective and skills are the threads that weave the fabric of this remarkable journey. Join us and be a part of<br>
+            something truly extraordinary!
+
+        </h3>
+    </div>
     <div class ="road-map">
         <div class = "circle-1" id = "meta-content-1"><h1 class = "meta-icon-titles">Portal Tree Chronicles</h1></div>
         <div class = "circle-2" id = "meta-content-2"><h1 class = "meta-icon-titles">Classic Reworks</h1></div>
@@ -406,19 +442,28 @@
     <div class = "content" id = "meta-content-5-opened">
         <h1>Reach out to us for recommendations!</h1>
         <p>We would love to hear from our supporters on their opinions or ideas for future Meta Narrative Projects</p>
-        <button><a href="mailto:hi@yoursweetspot.life"></a>Click here to Email Us!</button>
+        <button class = "email"><a href="mailto:hi@yoursweetspot.life"></a>Click here to Email Us!</button>
     </div>
 <!--    <div class = "content" id = "meta-content-6-opened"></div>-->
-    <a href="about.html" class = "learn-more-button">Learn More</a>
+<!--    <a href="about.html" class = "learn-more-button">Learn More</a>-->
 
 </div>
 
 <!-- COMMUNITY DEVELOPMENT ROAD MAP CONTENT-->
 <div class = "community-development-content" id = "community-development-content">
     <h1 class = "project-title">Community Development Plan</h1>
+    <div class = "proj-desc">
+        <h3>
+            Embark on a transformative journey with our Community Development Plan as we traverse each province of Canada, <br>
+            crafting bespoke strategies for community growth and enrichment. Envision vibrant streetcar-style train systems, <br>
+            dynamic educational centers, and innovative commercial hubs tailored to each region's unique needs. Join us in shaping a brighter <br>
+            future for Canadian communities, one province at a time.
+
+        </h3>
+    </div>
     <div class ="road-map">
         <div class = "circle-1" id = "comdev-content-1"><h1 class ="cdc-icon-titles">Ocean Falls</h1></div>
-        <div class = "circle-2" id = "comdev-content-2"><h1 class ="cdc-icon-titles">Sponsor Us </h1></div>
+        <div class = "circle-2" id = "comdev-content-2"><a href="sponsors.html" class = "to-sponsors"><h1 class ="cdc-icon-titles">Sponsor Us</h1></a></div>
         <!-- Extra Room for future content -->
 <!--        <div class = "circle-3" id = "comdev-content-3"></div>-->
 <!--        <div class = "circle-4" id = "comdev-content-4"></div>-->
@@ -443,12 +488,21 @@
 <!--    <div class = "content" id = "comdev-content-4-opened"></div>-->
 <!--    <div class = "content" id = "comdev-content-5-opened"></div>-->
 <!--    <div class = "content" id = "comdev-content-6-opened"></div>-->
-    <a href="about.html" class = "learn-more-button">Learn More</a>
+<!--    <a href="about.html" class = "learn-more-button">Learn More</a>-->
 </div>
 
 <!-- S.T.A.R.T ROAD MAP CONTENT-->
 <div class = "start-content" id = "start-content">
     <h1 class = "project-title">S.T.A.R.T</h1>
+    <div class = "proj-desc">
+        <h3>
+
+            Join S.T.A.R.T. (Systematic Training and Restoration Team), our dual-sided initiative for businesses and individuals.<br>
+            Enhance productivity and well-being through structured training and mental health support. Fulfill your purpose with<br>
+            our community-focused approach. Start your transformative journey today!
+
+        </h3>
+    </div>
     <div class ="road-map">
         <div class = "circle-1" id = "start-content-1"><h1 class ="start-icon-titles">S.T.A.R.T</h1></div>
         <div class = "circle-2" id = "start-content-2"><h1 class ="start-icon-titles">Assess</h1></div>
@@ -458,12 +512,52 @@
         <div class = "circle-6" id = "start-content-6"><h1 class ="start-icon-titles">Create (ARTISAN)</h1></div>
     </div>
     <div class="overlay" id="start-content-overlay"></div>
-    <div class = "content" id = "start-content-1-opened"></div>
-    <div class = "content" id = "start-content-2-opened"></div>
-    <div class = "content" id = "start-content-3-opened"></div>
-    <div class = "content" id = "start-content-4-opened"></div>
-    <div class = "content" id = "start-content-5-opened"></div>
-    <div class = "content" id = "start-content-6-opened"></div>
+    <div class = "content" id = "start-content-1-opened">
+        <h1>S.T.A.R.T</h1>
+        <p>
+            S.T.A.R.T. (Systematic Training and Restoration Team) is our unique program aimed at helping both businesses and individuals. It focuses on two main areas: improving work and personal skills through Systematic Training, and supporting mental health and well-being under Restoration. The idea is to work together as a team (the "T" in S.T.A.R.T.) to learn and grow. We specifically help professionals who are struggling by offering ongoing support, like mentorship and counseling, and making sure they keep making progress. Our goal is to help everyone find and follow their true purpose, making sure their work and personal life reflect what they truly value and aim for, offering solutions that last.
+        </p>
+    </div>
+
+    <div class = "content" id = "start-content-2-opened">
+        <h1>Assess</h1>
+        <p>
+            At the start of our consulting process, we begin with a detailed review to understand our client's current situation. We look closely at what they're doing well, where they can improve, areas for growth, and potential challenges. This step helps us get a clear picture of where the client stands. Our goal is to gather important information that will help guide us through the rest of our work together, making sure we offer solutions that are specifically designed to meet their needs and help them succeed.
+        </p>
+        <img src="/assets/assess.png" class ="start-content-2-img">
+
+    </div>
+    <div class = "content" id = "start-content-3-opened">
+        <h1>Plan</h1>
+        <p>
+            After the initial assessment, the consulting journey progresses to the planning stage. In this phase, we develop a strategic plan that is carefully designed using the insights gathered during the assessment. This plan includes clear, measurable goals and objectives, as well as the steps needed to reach these targets. The planning phase acts as the guiding framework for the entire consulting process, setting the path for achieving the outcomes we aim for.
+        </p>
+        <img src="/assets/plan.png" class ="start-content-3-img">
+    </div>
+    <div class = "content" id = "start-content-4-opened">
+        <h1>Learn</h1>
+        <p>
+            Once the strategic plan is established, we move into the learning phase of the consulting process. This phase focuses on putting the plan into action through different learning initiatives, such as workshops, training sessions, or educational materials. The aim here is to provide individuals with the essential knowledge and skills they need to effectively carry out the strategic plan
+        </p>
+        <img src="/assets/learn.png" class ="start-content-4-img">
+
+    </div>
+    <div class = "content" id = "start-content-5-opened">
+        <h1>Grow</h1>
+        <p>
+            Following the learning phase, we enter the growth stage of the consulting process. This stage is all about observing and encouraging both personal and professional growth. We use key performance indicators (KPIs) to track progress, making sure that everyone involved is improving in their skills, competencies, and general performance.
+        </p>
+        <img src="/assets/grow.png" class ="start-content-5-img">
+
+    </div>
+    <div class = "content" id = "start-content-6-opened">
+        <h1>Create</h1>
+        <p>
+            The consulting process culminates in the creation phase. At this point, participants use the knowledge and skills they've gained to produce concrete results. This may include creating solutions, introducing innovations, or reaching the specific goals set out in the original strategic plan. The creation phase signifies the end of the consulting journey, showcasing the real-world effects and achievements of the process.
+        </p>
+        <img src="/assets/create.png" class ="start-content-6-img">
+    </div>
+
     <a href="about.html" class = "learn-more-button">Learn More</a>
 
 </div>
