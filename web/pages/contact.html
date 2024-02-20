@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Your Sweet Spot Life</title>
     <link rel="stylesheet" href="/web/styles/contact.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
@@ -16,9 +19,9 @@
         </a>
     </div>
     <div class="nav-links">
-        <a href="#">Home</a>
-        <a href="#">Contact</a>
-        <a href="#">Sponsors</a>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="sponsors.html">Sponsors</a>
     </div>
 </nav>
 
@@ -30,9 +33,12 @@
         <h2 class="email">Reach Out To Us!</h2>
         <h2 class="email">hi@yoursweetspot.life</h2>
         <div class="social-icons">
-            <img src="/assets/insta.png" class="instagram">
-            <img src="/assets/Linkedin_circle.svg.png" class="linkedin">
-            <img src="/assets/facebook.png" class="facebook">
+            <div class = "social-media-buttons">
+                <a href="https://www.facebook.com/yoursweetspotlife" target=”_blank"><button class = "faecbook"><ion-icon name="logo-facebook"></ion-icon></button></a>
+                <a href="https://www.instagram.com/yoursweetspotlife/" target=”_blank"><button class = "instagram"><ion-icon name="logo-instagram"></ion-icon></button></a>
+                <a href="https://www.linkedin.com/in/marguerite-apotre-35955a50/?originalSubdomain=ca" target=”_blank">   <button class = "linkedin"><ion-icon name="logo-linkedin"></ion-icon></button></a>
+            </div>
+
         </div>
     </div>
 
@@ -104,10 +110,8 @@
 </div>
 
 
-
-<div class="rights-section">
-    <h3 class="rights"> All rights reserved by Your Sweet Spot Life
-    </h3>
+<div class = footer>
+    <h3 class = "footer-copyright">All rights reserved by Your Sweet Spot Life</h3>
 </div>
 
 <script src="/web/styles/contact.js"></script>
