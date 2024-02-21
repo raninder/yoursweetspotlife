@@ -15,22 +15,8 @@
     const FaqContent = document.getElementById("faq");
     const SponsorButton = document.getElementById("sponsor-button");
     const SponsorContent = document.getElementById("sponsor-page");
-
-    let logoText = document.querySelector(".logo");
-    let audio = document.createElement("audio");
-    audio.src = "/media/sounds/ui_chime.mp3";
-    document.body.appendChild(audio);
-
-    logoText.onmouseover = () => {
-        let resp = audio.play();
-        if (resp!== undefined) {
-            resp.then(_ => {
-                // autoplay starts!
-            }).catch(error => {
-                //show error
-            });
-        }
-    }
+    const FestivalContent = document.getElementById("festivals-content");
+    const FestivalButton = document.getElementById("festivals-button");
 
 // Button Functionalities for road map project selector
     aboutUsButton.addEventListener('click', ()=> {
@@ -42,6 +28,7 @@
         StartContent.style.display = "none";
         FaqContent.style.display = "none";
         SponsorContent.style.display = "none";
+        FestivalContent.style.display = "none";
 
     });
     YssLiveButton.addEventListener('click', ()=> {
@@ -53,6 +40,8 @@
         StartContent.style.display = "none";
         FaqContent.style.display = "none";
         SponsorContent.style.display = "none";
+        FestivalContent.style.display = "none";
+
     });
     MetaNarButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
@@ -63,6 +52,8 @@
         StartContent.style.display = "none";
         FaqContent.style.display = "none";
         SponsorContent.style.display = "none";
+        FestivalContent.style.display = "none";
+
     });
     ComDevButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
@@ -73,6 +64,8 @@
         StartContent.style.display = "none";
         FaqContent.style.display = "none";
         SponsorContent.style.display = "none";
+        FestivalContent.style.display = "none";
+
     });
     StartButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
@@ -83,6 +76,8 @@
         document.getElementById('start-content').scrollIntoView({ behavior: 'smooth' });
         FaqContent.style.display = "none";
         SponsorContent.style.display = "none";
+        FestivalContent.style.display = "none";
+
     });
 
     FaqButton.addEventListener('click', ()=> {
@@ -94,6 +89,8 @@
         FaqContent.style.display = "block";
         SponsorContent.style.display = "none";
         document.getElementById('faq').scrollIntoView({ behavior: 'smooth' });
+        FestivalContent.style.display = "none";
+
     });
     SponsorButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
@@ -104,7 +101,22 @@
         FaqContent.style.display = "none";
         SponsorContent.style.display = "block";
         document.getElementById('sponsor-page').scrollIntoView({ behavior: 'smooth' });
+        FestivalContent.style.display = "none";
+
     });
+FestivalButton.addEventListener('click', ()=> {
+    aboutUsContent.style.display = "none";
+    YssLiveContent.style.display = "none";
+    MetaNarContent.style.display = "none";
+    ComDevContent.style.display = "none";
+    StartContent.style.display = "none";
+    FaqContent.style.display = "none";
+    SponsorContent.style.display = "none";
+    FestivalContent.style.display = "block";
+    document.getElementById('festivals-content').scrollIntoView({ behavior: 'smooth' });
+
+
+})
 
 
     // Functionalities for Road Map Node Selectors Per Project
@@ -159,7 +171,7 @@
             metacoverlay.style.display = 'none';
         });
     }
-    for (let i = 1; i <= 5; i++) {
+    for (let i = 1; i <= 4; i++) {
         handleClickMeta(`meta-content-${i}`, `meta-content-${i}-opened`);
     }
 
@@ -178,7 +190,7 @@
         });
     }
     // Change increment ie: i <= x for how many nodes exist in the road map (x)
-    for (let i = 1; i <= 2; i++) {
+    for (let i = 1; i <= 5; i++) {
         handleClickComDev(`comdev-content-${i}`, `comdev-content-${i}-opened`);
     }
 
@@ -199,3 +211,21 @@
     for (let i = 1; i <= 6; i++) {
         handleClickStart(`start-content-${i}`, `start-content-${i}-opened`);
     }
+
+const festivaloverlay = document.getElementById('festivals-content-overlay');
+function handleClickFestival(buttonId, contentId) {
+    const button = document.getElementById(buttonId);
+    const content = document.getElementById(contentId);
+    button.addEventListener('click', () => {
+        content.style.display = content.style.display === 'none' ? 'block' : 'none';
+        festivaloverlay.style.display = festivaloverlay.style.display === 'none' ? 'block' : 'none';
+    });
+    festivaloverlay.addEventListener('click', () => {
+        content.style.display = 'none';
+        festivaloverlay.style.display = 'none';
+    });
+}
+for (let i = 1; i <= 5; i++) {
+    handleClickFestival(`festivals-content-${i}`, `festivals-content-${i}-opened`);
+}
+

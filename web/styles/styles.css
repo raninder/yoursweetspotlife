@@ -2,7 +2,11 @@
 
 html,body {
     scroll-behavior: smooth;
-    overflow: auto;
+    overflow: hidden;
+}
+html
+{
+    overflow-y: hidden;
 }
 
 
@@ -18,7 +22,7 @@ html,body {
 
 :root {
     --brown: #734a4b;
-    --green: #86be3e;
+    --green: #ffffff;
     --gray: #676767;
 }
 
@@ -130,10 +134,11 @@ body, html {
     justify-content: center;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.6rem;
+    font-size: 25px;
     color: var(--gray);
     margin-left: 24%;
     margin-right: 24%;
+    margin-top: 3%;
 
 }
 
@@ -201,6 +206,7 @@ font-size: 1.7rem;
     padding: 10% 0 0 0;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .circle-button {
@@ -225,14 +231,15 @@ font-size: 1.7rem;
 }
 
 
-.circle-button img:hover, .circle-button div:hover
+.circle-button img:hover
 {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .circle-button span {
     font-family: 'Roboto';
-    font-size: 2em;
+    font-size: 1.5em;
+    color: #7a7a7a;
     font-weight: 800;
     position: absolute;
     bottom: 120%;
@@ -249,27 +256,28 @@ font-size: 1.7rem;
 .footer{
     text-align: center;
 }
+.footer h1
+{
+    font-weight: lighter;
+    margin: 0;
+    padding-top: 20%;
+}
 .footer-copyright{
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-size: 1rem;
 }
 .social-media-set{
+    margin-top: -5%;
+    display: flex;
     justify-content: center;
-    display:flex;
+    align-items: center;
     width: 100%;
 }
+
 .social-media-buttons{
-    justify-content: center;
-    padding: 7% 0 2% 2%;
+    text-align: center;
 }
-
-.social-media-buttons h1{
-    position: relative;
-    right: 10px;
-    color: black;
-}
-
 .social-media-buttons button
 {
     color: white;
@@ -285,26 +293,10 @@ font-size: 1.7rem;
     justify-content: center;
     transition: all 0.5s;
 }
-
-.social-media-buttons1 button
-{
-    color: white;
-    width: 5rem; height: 5rem;
-    border-radius: 50%;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    margin-right: 30px;
-    font-size: 3rem;
-    padding-top: 2%;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.5s;
-}
 .social-media-buttons button:hover
 {
     transform: translateY(-10%);
-    /*transform: scale(1.1);*/
+    /*transform: scale(1.2);*/
 
 }
 
@@ -404,13 +396,14 @@ font-size: 1.7rem;
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
     grid-row-gap: 4rem;
     grid-column-gap: 4rem;
     align-items: center;
 }
 
 .road-map div {
+    cursor: pointer;
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -420,6 +413,52 @@ font-size: 1.7rem;
 .circle-1{
     grid-column: 2;
     grid-row: 1;
+}
+.path-1
+{
+    grid-column: 1;
+    grid-row:1;
+    transform:scale(0.8);
+    position: relative;
+    top: 40%;
+    left: 15%;
+}
+.path-2
+{
+    transform: scale(0.8);
+    position:relative;
+    top: 40%;
+    right: 55%;
+    grid-column: 2;
+    grid-row:2;
+}
+.path-3
+{
+    grid-column: 1;
+    grid-row:3;
+    transform: scale(0.8);
+    position:relative;
+    top: 40%;
+    left: 15%;
+}
+.path-4
+{
+    grid-column: 2;
+    grid-row:4;
+    transform: scale(0.8);
+    position:relative;
+    top: 40%;
+    right: 55%;
+}
+.path-5
+{
+    grid-column: 1;
+    grid-row:5;
+    transform: scale(0.7);
+    position:relative;
+    top: 25%;
+    left: 17%;
+    rotate: 6deg;
 }
 
 .circle-2 {
@@ -478,6 +517,10 @@ font-size: 1.7rem;
 .marketplace-content .road-map div{
     background: linear-gradient(#009eff, #002c85);;
 
+}
+.festivals-content .road-map div
+{
+    background: linear-gradient(#ff9bf0, #600ac9);;
 }
 
 .about-content .road-map div button{
@@ -580,7 +623,7 @@ font-size: 1.7rem;
 
 }
 #about-content-1:hover, #about-content-2:hover, #about-content-3:hover, #about-content-4:hover, #about-content-5:hover, #about-content-6:hover, #about-content-7:hover {
-    transform: scale(1.1);
+    transform: scale(1.25);
 }
 
 
@@ -659,7 +702,7 @@ font-size: 1.7rem;
     transition: all 0.5s;
 }
 #yslc-content-1:hover, #yslc-content-2:hover, #yslc-content-3:hover {
-    transform: scale(1.1);
+    transform: scale(1.25);
 }
 
 #yslc-content-1-opened, #yslc-content-2-opened, #yslc-content-3-opened {
@@ -671,7 +714,7 @@ font-size: 1.7rem;
 }
 
 #meta-content-1:hover, #meta-content-2:hover, #meta-content-3:hover, #meta-content-4:hover, #meta-content-5:hover, #meta-content-6:hover {
-    transform: scale(1.1);
+    transform: scale(1.25);
 }
 
 #meta-content-1-opened, #meta-content-2-opened, #meta-content-3-opened, #meta-content-4-opened, #meta-content-5-opened,  #meta-content-6-opened {
@@ -679,20 +722,18 @@ font-size: 1.7rem;
 }
 
 
-#comdev-content-1, #comdev-content-2, #comdev-content-3, #comdev-content-4, #comdev-content-5, #comdev-content-6{
+#comdev-content-1, #comdev-content-2,#comdev-content-3,#comdev-content-4,#comdev-content-5,#comdev-content-6{
     transition: all 0.5s;
 
 }
-#comdev-content-1:hover, #comdev-content-2:hover, #comdev-content-3:hover, #comdev-content-4:hover, #comdev-content-5:hover, #comdev-content-6:hover {
-    transform: scale(1.1);
+#comdev-content-1:hover,#comdev-content-2:hover,#comdev-content-3:hover,#comdev-content-4:hover,#comdev-content-5:hover,#comdev-content-6:hover{
+    transform: scale(1.25);
 }
 
 
-#comdev-content-1-opened, #comdev-content-2-opened, #comdev-content-3-opened, #comdev-content-4-opened, #comdev-content-5-opened,  #comdev-content-6-opened {
+#comdev-content-1-opened,#comdev-content-2-opened,#comdev-content-3-opened,#comdev-content-4-opened,#comdev-content-5-opened,#comdev-content-6-opened{
     display: none;
 }
-
-
 
 
 #start-content-1, #start-content-2, #start-content-3, #start-content-4, #start-content-5, #start-content-6{
@@ -700,7 +741,7 @@ font-size: 1.7rem;
 
 }
 #start-content-1:hover, #start-content-2:hover, #start-content-3:hover, #start-content-4:hover, #start-content-5:hover, #start-content-6:hover {
-    transform: scale(1.1);
+    transform: scale(1.25);
 }
 
 
@@ -708,20 +749,34 @@ font-size: 1.7rem;
     display: none;
 }
 
-
-
-#mp-content-1, #mp-content-2, #mp-content-3, #mp-content-4, #mp-content-5, #mp-content-6{
+#festivals-content-1, #festivals-content-2, #festivals-content-3, #festivals-content-4, #festivals-content-5{
     transition: all 0.5s;
 
 }
-#mp-content-1:hover, #mp-content-2:hover, #mp-content-3:hover, #mp-content-4:hover, #mp-content-5:hover, #mp-content-6:hover {
-    transform: scale(1.1);
+#festivals-content-1:hover, #festivals-content-2:hover, #festivals-content-3:hover, #festivals-content-4:hover, #festivals-content-5:hover{
+    transform: scale(1.25);
 }
-
-
-#mp-content-1-opened, #mp-content-2-opened, #mp-content-3-opened, #mp-content-4-opened, #mp-content-5-opened,  #mp-content-6-opened {
+#festivals-content{
     display: none;
 }
+#festivals-content-1-opened, #festivals-content-2-opened, #festivals-content-3-opened, #festivals-content-4-opened, #festivals-content-5-opened{
+    display: none;
+}
+
+
+/*#mp-content-1, #mp-content-2, #mp-content-3, #mp-content-4, #mp-content-5, #mp-content-6{*/
+/*    transition: all 0.5s;*/
+
+/*}*/
+
+/*#mp-content-1:hover, #mp-content-2:hover, #mp-content-3:hover, #mp-content-4:hover, #mp-content-5:hover, #mp-content-6:hover {*/
+/*    transform: scale(2);*/
+/*}*/
+
+
+/*#mp-content-1-opened, #mp-content-2-opened, #mp-content-3-opened, #mp-content-4-opened, #mp-content-5-opened,  #mp-content-6-opened {*/
+/*    display: none;*/
+/*}*/
 
 .hero-page {
     display: flex;
@@ -836,32 +891,13 @@ font-size: 1.7rem;
     margin-bottom: 20px;
 }
 
-.left {
-    position: relative;
-    transform: rotate(16deg);
-    left: 220px;
-    top: 100px;
-    height: 16rem;
-    padding: 1%;
-}
 
-.right {
-    position: relative;
-    transform: rotate(-10deg);
-    right: 160px;
-    top: 100px;
-    height: 16rem;
-    padding: 1%;
-}
-
-
-
-.about-icon-titles, .meta-icon-titles, .cdc-icon-titles, .start-icon-titles, .yss-live-icon-titles
+.about-icon-titles, .meta-icon-titles, .cdc-icon-titles, .start-icon-titles, .yss-live-icon-titles, .festivals-icon-titles
 {
-    padding-top: 30%;
     text-align: center;
-    justify-content: center;
+    padding-top: 28%;
     color: white;
+    font-size: 2rem;
 }
 
 
@@ -1105,7 +1141,62 @@ font-size: 1.7rem;
     display:none;
 }
 
-.footer {
-    background-image: linear-gradient(to top, var(--green), white)
+#footer{
+    background-image: linear-gradient(white, white 40%, var(--green));
 }
+
+
+.opportunities{
+    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 3%;
+}
+.op-list-1 ul, .op-list-2 ul, .op-list-3 ul
+{
+    list-style-type: none;
+}
+.opportunities li
+{
+    font-size: 25px;
+    color: var(--gray);
+    margin-top: 25px;
+}
+
+.bottle-drive {
+    margin-top: 3%;
+    width: 100%;
+}
+.bottle-drive-title {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+    font-size: 25px;
+    color: var(--green);
+    white-space: nowrap; /* Prevent text from wrapping */
+    margin-bottom: 0;
+
+}
+.bottle-drive-title-span
+{
+    color: var(--brown);
+}
+.bottle_img {
+    margin: 0 -12%; /* Add margin to the left and right of the image */
+    padding: 0;
+    transform: scale(0.5);
+}
+#bottle-1
+{
+    rotate: 5deg;
+}
+#bottle-2
+{
+    rotate: -5deg;
+}
+#bottle-drive-desc{
+    margin-top: -5%;
+}
+
 
