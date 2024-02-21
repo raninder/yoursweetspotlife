@@ -644,8 +644,7 @@ font-size: 1.7rem;
 
 .content {
     position: fixed;
-    border-radius: 12.5%/25%;
-    height: 70%;
+    height: auto;
     width: 70%;
     top: 50%;
     left: 50%;
@@ -698,14 +697,14 @@ font-size: 1.7rem;
 
 
 
-#yslc-content-1, #yslc-content-2, #yslc-content-3{
+#yslc-content-1, #yslc-content-2, #yslc-content-3, #yslc-content-4, #yslc-content-5, #yslc-content-6{
     transition: all 0.5s;
 }
-#yslc-content-1:hover, #yslc-content-2:hover, #yslc-content-3:hover {
+#yslc-content-1:hover, #yslc-content-2:hover, #yslc-content-3:hover, #yslc-content-4:hover, #yslc-content-5:hover, #yslc-content-6:hover {
     transform: scale(1.25);
 }
 
-#yslc-content-1-opened, #yslc-content-2-opened, #yslc-content-3-opened {
+#yslc-content-1-opened, #yslc-content-2-opened, #yslc-content-3-opened,#yslc-content-4-opened, #yslc-content-5-opened, #yslc-content-6-opened  {
     display: none;
 }
 
@@ -1199,4 +1198,44 @@ font-size: 1.7rem;
     margin-top: -5%;
 }
 
+.bd-order ul
+{
+    list-style-type: none;
+}
 
+.bd-instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bd-order {
+    list-style-type: none;
+    margin-right: 0%;
+
+}
+
+.bd-order li {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.driver-info {
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 16%;
+
+}
+.glen{
+    color: var(--green);
+    font-weight:bold;
+}
+.driver-info h3 {
+    font-size: 25px;
+}
+.driver-info p {
+    margin: 5px 0;
+    font-size: 20px;
+}

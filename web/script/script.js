@@ -21,7 +21,7 @@
 // Button Functionalities for road map project selector
     aboutUsButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "block";
-        document.getElementById('about-content').scrollIntoView({ behavior: 'smooth' });
+        document.getElementById('about-content').scrollIntoView({ behavior: 'smooth', block:'start'});
         YssLiveContent.style.display = "none";
         MetaNarContent.style.display = "none";
         ComDevContent.style.display = "none";
@@ -34,7 +34,7 @@
     YssLiveButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
         YssLiveContent.style.display = "block";
-        document.getElementById('yss-live-content').scrollIntoView({ behavior: 'smooth' });
+        document.getElementById('yss-live-content').scrollIntoView({ behavior: 'smooth', block:'start' });
         MetaNarContent.style.display = "none";
         ComDevContent.style.display = "none";
         StartContent.style.display = "none";
@@ -47,7 +47,7 @@
         aboutUsContent.style.display = "none";
         YssLiveContent.style.display = "none";
         MetaNarContent.style.display = "block";
-        document.getElementById('meta-narrative-content').scrollIntoView({ behavior: 'smooth' });
+        document.getElementById('meta-narrative-content').scrollIntoView({  behavior: 'smooth', block:'start' });
         ComDevContent.style.display = "none";
         StartContent.style.display = "none";
         FaqContent.style.display = "none";
@@ -60,7 +60,7 @@
         YssLiveContent.style.display = "none";
         MetaNarContent.style.display = "none";
         ComDevContent.style.display = "block";
-        document.getElementById('community-development-content').scrollIntoView({ behavior: 'smooth' });
+        document.getElementById('community-development-content').scrollIntoView({ behavior: 'smooth', block:'start' });
         StartContent.style.display = "none";
         FaqContent.style.display = "none";
         SponsorContent.style.display = "none";
@@ -73,7 +73,7 @@
         MetaNarContent.style.display = "none";
         ComDevContent.style.display = "none";
         StartContent.style.display = "block";
-        document.getElementById('start-content').scrollIntoView({ behavior: 'smooth' });
+        document.getElementById('start-content').scrollIntoView({ behavior: 'smooth', block:'start' });
         FaqContent.style.display = "none";
         SponsorContent.style.display = "none";
         FestivalContent.style.display = "none";
@@ -88,7 +88,7 @@
         StartContent.style.display = "none";
         FaqContent.style.display = "block";
         SponsorContent.style.display = "none";
-        document.getElementById('faq').scrollIntoView({ behavior: 'smooth' });
+        document.getElementById('faq').scrollIntoView({ behavior: 'smooth', block:'start' });
         FestivalContent.style.display = "none";
 
     });
@@ -100,7 +100,7 @@
         StartContent.style.display = "none";
         FaqContent.style.display = "none";
         SponsorContent.style.display = "block";
-        document.getElementById('sponsor-page').scrollIntoView({ behavior: 'smooth' });
+        document.getElementById('sponsor-page').scrollIntoView({ behavior: 'smooth', block:'start' });
         FestivalContent.style.display = "none";
 
     });
@@ -113,7 +113,7 @@ FestivalButton.addEventListener('click', ()=> {
     FaqContent.style.display = "none";
     SponsorContent.style.display = "none";
     FestivalContent.style.display = "block";
-    document.getElementById('festivals-content').scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('festivals-content').scrollIntoView({ behavior: 'smooth', block:'start'});
 
 
 })
@@ -153,7 +153,7 @@ FestivalButton.addEventListener('click', ()=> {
             yslcoverlay.style.display = 'none';
         });
     }
-    for (let i = 1; i <= 3; i++) {
+    for (let i = 1; i <= 6; i++) {
         handleClickYslc(`yslc-content-${i}`, `yslc-content-${i}-opened`);
     }
 

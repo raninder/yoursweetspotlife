@@ -6,20 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="640687f9-7aa5-4402-823d-c7923c3aca22" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/com_dev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/contributers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/meta-nrtive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/path-left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/path-right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/yss-live.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pages/sponsors.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/sponsors.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/script/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles/mobile_view.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/mobile_view.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles/sponsers.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/sponsers.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/styles.css" afterDir="false" />
     </list>
     <list id="bf8fd4dd-ee7c-4045-9a0c-6e955b8b9592" name="Changes by sartaj" comment="" />
@@ -125,7 +114,7 @@
       <workItem from="1708371377462" duration="263000" />
       <workItem from="1708371903663" duration="11000" />
       <workItem from="1708372012474" duration="505000" />
-      <workItem from="1708456763021" duration="20383000" />
+      <workItem from="1708456763021" duration="26343000" />
     </task>
     <servers />
   </component>
