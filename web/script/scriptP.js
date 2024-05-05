@@ -18,79 +18,6 @@
     const FestivalContent = document.getElementById("festivals-content");
     const FestivalButton = document.getElementById("festivals-button");
 
-document.getElementById("imgButton_1").addEventListener("click", function() {
-    document.getElementById("video_1").style.display = "block";
-});
-document.getElementById("closeBtn_1").addEventListener("click", function() {
-    var video = document.querySelector("#video_1 video");
-    video.pause(); // Pause the video   
-    document.getElementById("video_1").style.display = "none";
-});
-
-document.getElementById("imgButton_2").addEventListener("click", function() {
-    document.getElementById("video_2").style.display = "block";
-});
-document.getElementById("closeBtn_2").addEventListener("click", function() {
-    var video = document.querySelector("#video_2 video");
-    video.pause(); // Pause the video 
-    document.getElementById("video_2").style.display = "none";
-});
-
-document.getElementById("imgButton_3").addEventListener("click", function() {
-    document.getElementById("video_3").style.display = "block";
-});
-document.getElementById("closeBtn_3").addEventListener("click", function() {
-    var video = document.querySelector("#video_3 video");
-    video.pause(); // Pause the video   
-    document.getElementById("video_3").style.display = "none";
-});
-
-document.getElementById("imgButton_4").addEventListener("click", function() {
-    document.getElementById("video_4").style.display = "block";
-});
-document.getElementById("closeBtn_4").addEventListener("click", function() {
-    var video = document.querySelector("#video_4 video");
-    video.pause(); // Pause the video   
-    document.getElementById("video_4").style.display = "none";
-});
-
-document.getElementById("imgButton_5").addEventListener("click", function() {
-    document.getElementById("video_5").style.display = "block";
-});
-document.getElementById("closeBtn_5").addEventListener("click", function() {
-    var video = document.querySelector("#video_5 video");
-    video.pause(); // Pause the video   
-    document.getElementById("video_5").style.display = "none";
-});
-
-document.getElementById("imgButton_6").addEventListener("click", function() {
-    document.getElementById("video_6").style.display = "block";
-});
-document.getElementById("closeBtn_6").addEventListener("click", function() {
-    var video = document.querySelector("#video_6 video");
-    video.pause(); // Pause the video   
-    document.getElementById("video_6").style.display = "none";
-});
-
-document.getElementById("imgButton_7").addEventListener("click", function() {
-    document.getElementById("video_7").style.display = "block";
-});
-document.getElementById("closeBtn_7").addEventListener("click", function() {
-    var video = document.querySelector("#video_7 video");
-    video.pause(); // Pause the video   
-    document.getElementById("video_7").style.display = "none";
-});
-
-document.getElementById("imgButton_8").addEventListener("click", function() {
-    document.getElementById("video_8").style.display = "block";
-});
-document.getElementById("closeBtn_8").addEventListener("click", function() {
-    var video = document.querySelector("#video_8 video");
-    video.pause(); // Pause the video   
-    document.getElementById("video_8").style.display = "none";
-});
-
-
 // Button Functionalities for road map project selector
     aboutUsButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "block";
@@ -102,8 +29,6 @@ document.getElementById("closeBtn_8").addEventListener("click", function() {
         FaqContent.style.display = "none";
         SponsorContent.style.display = "none";
         FestivalContent.style.display = "none";
-        MarketplaceContent.style.display = "none";
-
 
     });
     YssLiveButton.addEventListener('click', ()=> {
@@ -116,8 +41,6 @@ document.getElementById("closeBtn_8").addEventListener("click", function() {
         FaqContent.style.display = "none";
         SponsorContent.style.display = "none";
         FestivalContent.style.display = "none";
-        MarketplaceContent.style.display = "none";
-
 
     });
     MetaNarButton.addEventListener('click', ()=> {
@@ -130,8 +53,6 @@ document.getElementById("closeBtn_8").addEventListener("click", function() {
         FaqContent.style.display = "none";
         SponsorContent.style.display = "none";
         FestivalContent.style.display = "none";
-        MarketplaceContent.style.display = "none";
-
 
     });
     ComDevButton.addEventListener('click', ()=> {
@@ -144,8 +65,6 @@ document.getElementById("closeBtn_8").addEventListener("click", function() {
         FaqContent.style.display = "none";
         SponsorContent.style.display = "none";
         FestivalContent.style.display = "none";
-        MarketplaceContent.style.display = "none";
-
 
     });
     StartButton.addEventListener('click', ()=> {
@@ -158,8 +77,6 @@ document.getElementById("closeBtn_8").addEventListener("click", function() {
         FaqContent.style.display = "none";
         SponsorContent.style.display = "none";
         FestivalContent.style.display = "none";
-        MarketplaceContent.style.display = "none";
-
 
     });
 
@@ -173,8 +90,6 @@ document.getElementById("closeBtn_8").addEventListener("click", function() {
         SponsorContent.style.display = "none";
         document.getElementById('faq').scrollIntoView({ behavior: 'smooth', block:'start' });
         FestivalContent.style.display = "none";
-        MarketplaceContent.style.display = "none";
-
 
     });
     SponsorButton.addEventListener('click', ()=> {
@@ -187,8 +102,6 @@ document.getElementById("closeBtn_8").addEventListener("click", function() {
         SponsorContent.style.display = "block";
         document.getElementById('sponsor-page').scrollIntoView({ behavior: 'smooth', block:'start' });
         FestivalContent.style.display = "none";
-        MarketplaceContent.style.display = "none";
-
 
     });
 FestivalButton.addEventListener('click', ()=> {
@@ -200,23 +113,11 @@ FestivalButton.addEventListener('click', ()=> {
     FaqContent.style.display = "none";
     SponsorContent.style.display = "none";
     FestivalContent.style.display = "block";
-    MarketplaceContent.style.display = "none";
-
     document.getElementById('festivals-content').scrollIntoView({ behavior: 'smooth', block:'start'});
-});
 
-MarketplaceButton.addEventListener('click', ()=> {
-    aboutUsContent.style.display = "none";
-    YssLiveContent.style.display = "none";
-    MetaNarContent.style.display = "none";
-    ComDevContent.style.display = "none";
-    StartContent.style.display = "none";
-    FaqContent.style.display = "none";
-    SponsorContent.style.display = "none";
-    FestivalContent.style.display = "none";
-    MarketplaceContent.style.display = "block";
-    document.getElementById('marketplace-content').scrollIntoView({ behavior: 'smooth', block:'start'});
-});
+
+})
+
 
     // Functionalities for Road Map Node Selectors Per Project
 
@@ -252,7 +153,7 @@ MarketplaceButton.addEventListener('click', ()=> {
             yslcoverlay.style.display = 'none';
         });
     }
-    for (let i = 1; i <= 5; i++) {
+    for (let i = 1; i <= 6; i++) {
         handleClickYslc(`yslc-content-${i}`, `yslc-content-${i}-opened`);
     }
 
@@ -328,40 +229,3 @@ for (let i = 1; i <= 5; i++) {
     handleClickFestival(`festivals-content-${i}`, `festivals-content-${i}-opened`);
 }
 
-const marketplaceoverlay = document.getElementById('mp-content-overlay');
-
-function handleClickMarketplace(buttonId, contentId) {
-    const button = document.getElementById(buttonId);
-    const content = document.getElementById(contentId);
-    button.addEventListener('click', () => {
-        content.style.display = content.style.display === 'none' ? 'block' : 'none';
-        marketplaceoverlay.style.display = marketplaceoverlay.style.display === 'none' ? 'block' : 'none';
-    });
-    marketplaceoverlay.addEventListener('click', () => {
-        content.style.display = 'none';
-        marketplaceoverlay.style.display = 'none';
-    });
-}
-for (let i = 1; i <= 6; i++) {
-    handleClickMarketplace(`mp-content-${i}`, `mp-content-${i}-opened`);
-}
-
-const videooverlay = document.getElementById('video-overlay');
-function handleClickVideo(buttonId, contentId) {
-    const button = document.getElementById(buttonId);
-    const content = document.getElementById(contentId);
-    button.addEventListener('click', () => {
-        content.style.display = content.style.display === 'none' ? 'block' : 'none';
-        videooverlay.style.display = videooverlay.style.display === 'none' ? 'block' : 'none';
-    });
-    videooverlay.addEventListener('click', () => {
-        content.style.display = 'none';
-        videooverlay.style.display = 'none';
-    });
-}
-handleClickVideo('video-btn', `video-cnt`);
-
-
-function scrollToTop() {
-    document.getElementById('hero-page').scrollIntoView({ behavior: 'smooth', block:'start'});
-}

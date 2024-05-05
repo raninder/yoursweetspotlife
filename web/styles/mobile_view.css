@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Roboto:ital,wght@0,400;0,500;1,300;1,900&display=swap');
 
 @media (max-width: 430px)
+
 {
+   
     html,body {
         scroll-behavior: smooth;
         overflow: auto;
@@ -60,23 +62,26 @@
     .hero-page {
         display: block;
         flex-direction: column;
+        padding-top:20px;
         height: auto;
     }
 
     #logo {
         height: 200px;
+        /* border:1px solid red; */
     }
-
+   
     #logo-text {
         font-weight: 800;
-        font-size: 40px;
+        font-size: 36px;
         color: var(--green);
     }
 
     #logo-desc {
         color: var(--gray);
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 0%;
+        margin-bottom: 4rem;
     }
 
     .logo-nav {
@@ -103,10 +108,12 @@
 
     .proj-desc{
         justify-content: center;
-        text-align: center;
+        width:60%;
+        /* text-align:justify; */
         font-family: 'Roboto', sans-serif;
-        font-size: 15px;
+        font-size: 1.2em;
         color: var(--gray);
+        margin-bottom: 60px;
     }
 
     .button-scroller::-webkit-scrollbar {
@@ -114,17 +121,21 @@
     }
     .button-scroller {
         display: flex; /* Use flexbox for layout */
-        overflow-x: scroll;
+        /* overflow-x: scroll; */
+       
+        flex-wrap: wrap;
         margin: 0 auto;
         padding: 10px 0;
-        justify-content: left;
+        justify-content: space-between;
     }
 
     .button-scroller-content
-    {
-        padding: 10% 0 0 0;
+    {   
+        /* border:1px solid red; */
+        flex-wrap: wrap;
+        /* padding: 10% 0 0 0; */
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .circle-button {
@@ -137,7 +148,7 @@
         cursor: pointer;
         align-items: center;
         justify-content: center;
-        margin-right: 2rem;
+        margin: 2rem 1rem 4rem 1rem;
     }
 
     .circle-button img {
@@ -156,22 +167,26 @@
 
     .circle-button span {
         font-family: 'Roboto';
-        font-size: 2em;
+        font-size: 1.5rem;
         font-weight: 800;
         position: absolute;
-        bottom: -50%;
+        top:-30px;
+        width:200px;
         left: 50%;
         transform: translateX(-50%);
-        opacity: 0;
+        opacity: 1;
         transition: opacity 0.5s;
     }
 
-    .circle-button:hover span {
+    .circle-button:hover span , .circle-button:active span{
         opacity: 1;
     }
 
     .footer{
         text-align: center;
+    }
+    .footer>h1{
+        margin-bottom: 50px;
     }
     .footer-copyright{
         font-family: 'Roboto', sans-serif;
@@ -289,37 +304,89 @@
     }
 
     .road-map{
-        margin-left: 8%;
+        width:50%;
+        height:100rem;
+        /* margin-left: 8%; */
         margin-top: 3%;
-        text-align: center;
-        justify-content: center;
+        /* text-align: center;
+        justify-content: center; */
         display: grid;
-        grid-template-columns: repeat(2, 2fr);
-        grid-template-rows: auto auto auto auto auto;
-        grid-row-gap: 2rem;
-        grid-column-gap: 2rem;
-        align-items: center;
+        grid-template-columns: repeat(2, 200px);
+        /* grid-template-columns: 10px 10px; */
+        grid-template-rows: 16% 16% 16% 16% 16% 16%;
+        grid-row-gap: 0;
+        grid-column-gap: 0;
+        /* align-items: center; */
+        /* border:1px solid red; */
     }
 
     .road-map div {
-        width: 125px;
-        height: 125px;
+        /* width: 125px;
+        height: 125px; */
+        width: 130px;
+        height: 130px;
         border-radius: 50%;
         margin: 10px;
+        /* border:5px solid yellow; */
     }
-
+    
     .circle-1{
         grid-column: 2;
         grid-row: 1;
+        /* border: 5px solid yellow; */
     }
-
+    
     .circle-2 {
         grid-column: 1;
         grid-row: 2;
     }
+    
     .circle-3 {
         grid-column: 2;
         grid-row: 3;
+    }
+    .path-1{
+        grid-column: 1;
+        grid-row:1;
+        transform:scale(0.4);
+        position: relative;
+        top: 32%;
+        left: -48%;
+    }
+
+    .path-2{
+        transform: scale(0.4);
+        position:relative;
+        top: 35%;
+        right: 100%;
+        grid-column: 2;
+        grid-row:2;
+    }
+    .path-3
+    {
+        grid-column: 1;
+        grid-row:3;
+        transform: scale(0.4);
+        position:relative;
+        top: 32%;
+        left: -48%;
+    }
+    .path-4{
+        grid-column: 2;
+        grid-row:4;
+        transform: scale(0.4);
+        position:relative;
+        top: 35%;
+        right: 100%;
+    }
+    .path-5{
+        grid-column: 1;
+        grid-row:5;
+        transform: scale(0.4);
+        position:relative;
+        top: 44%;
+        left: -52%;
+        
     }
     .circle-4 {
         grid-column: 1;
@@ -338,7 +405,13 @@
     .project-title
     {
         font-family: 'Roboto';
-        font-size: 1em;
+        font-size: 1.6em;
+        text-align: center;
+    }
+    .contributors-op>.project-title
+    {
+        font-family: 'Roboto';
+        font-size: 1.8em;
         text-align: center;
     }
     .about-content .road-map div{
@@ -493,7 +566,8 @@
         overflow-y: scroll;
         position: fixed;
         border-radius: 0;
-        height: 70%;
+        height:auto;
+        /* height: 70%; */
         width: 80%;
         top: 50%;
         left: 50%;
@@ -559,6 +633,7 @@
         font-family: 'Roboto', sans-serif;
         font-size: 2rem;
         color: black;
+        /* margin-top:0; */
     }
     .learn-more-button:hover
     {
@@ -574,8 +649,44 @@
         transform:translateY(-50%);
     }
 
-
-
+    .opportunities{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .bottle-drive-title {
+        font-size: 20px;
+        padding-bottom:-80px;
+        margin-top: 6em;
+        margin-bottom: 0;
+        white-space: wrap;
+        height:20rem;
+    
+    }
+    .bottle_img {
+        padding: 0;
+        margin:0 -180px;
+        
+    }
+    .bottle-drive h1{
+        margin:0;
+        text-align: center;
+    }
+    #bottle-1{
+        rotate: 5deg;
+    }
+    #bottle-2{  
+     display:none;
+    }
+    #bottle-drive-desc{
+        font-size: 20px;
+    }
+    .driver-info p{
+        font-style: italic;
+        font-weight: bold;
+        color:rgb(38, 105, 38);
+        text-align: center;
+    }
     #yslc-content-1, #yslc-content-2, #yslc-content-3{
         transition: all 0.5s;
     }
@@ -684,14 +795,14 @@
     .sponsor-container {
         display: flex;
         flex-direction: column;
-        align-items: flex-start; / Align sponsors to the left /
+        align-items: flex-start; 
     }
 
 
     .sponsor-mobile {
         display: flex;
         flex-direction: column;
-        align-items: flex-start; / Align to the left /
+        align-items: flex-start; 
     margin-bottom: 50px;
     }
 
@@ -735,9 +846,9 @@
 
 
 
-    .about-icon-titles, .meta-icon-titles, .cdc-icon-titles, .start-icon-titles, .yss-live-icon-titles
+    .about-icon-titles, .meta-icon-titles, .cdc-icon-titles, .start-icon-titles, .yss-live-icon-titles, .festivals-icon-titles
     {
-        font-size: 1em;
+        font-size: 1.2em;
         padding-top: 30%;
         text-align: center;
         justify-content: center;
