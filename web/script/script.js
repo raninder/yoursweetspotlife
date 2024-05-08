@@ -1,23 +1,25 @@
 // Buttons and Contents Variables
     const aboutUsButton = document.getElementById('about-us-button');
-    const YssLiveButton = document.getElementById('yss-live-button');
     const aboutUsContent = document.getElementById('about-content');
-    const YssLiveContent = document.getElementById('yss-live-content');
-    const MetaNarButton = document.getElementById('meta-narrative-button');
-    const ComDevButton = document.getElementById("community-development-button");
     const StartButton = document.getElementById("start-button");
-    const MarketplaceButton = document.getElementById("marketplace-button");
-    const MetaNarContent = document.getElementById('meta-narrative-content');
-    const ComDevContent = document.getElementById("community-development-content");
     const StartContent = document.getElementById("start-content");
+    const ReservoirButton = document.getElementById("reservoir-button");
+    const ReservoirContent = document.getElementById("reservoir-content");
+    const StreamweaverButton = document.getElementById('streamweaver-button');
+    const StreamweaverContent = document.getElementById('streamweaver-content');
+    const YssLiveButton = document.getElementById('yss-live-button');
+    const YssLiveContent = document.getElementById('yss-live-content');
+    const PortalButton = document.getElementById("portal-button");
+    const PortalContent = document.getElementById("portal-content");
+    const MarketplaceButton = document.getElementById("marketplace-button");
     const MarketplaceContent = document.getElementById("marketplace-content");
+    const ContributorButton = document.getElementById("contributor-button");
+    const ContributorContent = document.getElementById("contributor-page");
     const FaqButton = document.getElementById("faq-button");
     const FaqContent = document.getElementById("faq");
-    const SponsorButton = document.getElementById("sponsor-button");
-    const SponsorContent = document.getElementById("sponsor-page");
-    const FestivalContent = document.getElementById("festivals-content");
-    const FestivalButton = document.getElementById("festivals-button");
+    
 
+   
 document.getElementById("imgButton_1").addEventListener("click", function() {
     document.getElementById("video_1").style.display = "block";
 });
@@ -96,129 +98,126 @@ document.getElementById("closeBtn_8").addEventListener("click", function() {
         aboutUsContent.style.display = "block";
         document.getElementById('about-content').scrollIntoView({ behavior: 'smooth', block:'start'});
         YssLiveContent.style.display = "none";
-        MetaNarContent.style.display = "none";
-        ComDevContent.style.display = "none";
+        StreamweaverContent.style.display = "none";
+        ReservoirContent.style.display = "none";
         StartContent.style.display = "none";
         FaqContent.style.display = "none";
-        SponsorContent.style.display = "none";
-        FestivalContent.style.display = "none";
+        ContributorContent.style.display = "none";
+        PortalContent.style.display = "none";
         MarketplaceContent.style.display = "none";
-
-
     });
+
+    StartButton.addEventListener('click', ()=> {
+        aboutUsContent.style.display = "none";
+        YssLiveContent.style.display = "none";
+        StreamweaverContent.style.display = "none";
+        ReservoirContent.style.display = "none";
+        StartContent.style.display = "block";
+        document.getElementById('start-content').scrollIntoView({ behavior: 'smooth', block:'start' });
+        FaqContent.style.display = "none";
+        ContributorContent.style.display = "none";
+        PortalContent.style.display = "none";
+        MarketplaceContent.style.display = "none";
+    });
+
+    ReservoirButton.addEventListener('click', ()=> {
+        aboutUsContent.style.display = "none";
+        YssLiveContent.style.display = "none";
+        StreamweaverContent.style.display = "none";
+        ReservoirContent.style.display = "block";
+        document.getElementById('reservoir-content').scrollIntoView({ behavior: 'smooth', block:'start' });
+        StartContent.style.display = "none";
+        FaqContent.style.display = "none";
+        ContributorContent.style.display = "none";
+        PortalContent.style.display = "none";
+        MarketplaceContent.style.display = "none";
+    });
+
+    StreamweaverButton.addEventListener('click', ()=> {
+        aboutUsContent.style.display = "none";
+        YssLiveContent.style.display = "none";
+        StreamweaverContent.style.display = "block";
+        document.getElementById('streamweaver-content').scrollIntoView({  behavior: 'smooth', block:'start' });
+        ReservoirContent.style.display = "none";
+        StartContent.style.display = "none";
+        FaqContent.style.display = "none";
+        ContributorContent.style.display = "none";
+        PortalContent.style.display = "none";
+        MarketplaceContent.style.display = "none";
+    });
+
     YssLiveButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
         YssLiveContent.style.display = "block";
         document.getElementById('yss-live-content').scrollIntoView({ behavior: 'smooth', block:'start' });
-        MetaNarContent.style.display = "none";
-        ComDevContent.style.display = "none";
+        StreamweaverContent.style.display = "none";
+        ReservoirContent.style.display = "none";
         StartContent.style.display = "none";
         FaqContent.style.display = "none";
-        SponsorContent.style.display = "none";
-        FestivalContent.style.display = "none";
+        ContributorContent.style.display = "none";
+        PortalContent.style.display = "none";
         MarketplaceContent.style.display = "none";
 
 
     });
-    MetaNarButton.addEventListener('click', ()=> {
+    
+    PortalButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
         YssLiveContent.style.display = "none";
-        MetaNarContent.style.display = "block";
-        document.getElementById('meta-narrative-content').scrollIntoView({  behavior: 'smooth', block:'start' });
-        ComDevContent.style.display = "none";
+        StreamweaverContent.style.display = "none";
+        ReservoirContent.style.display = "none";
         StartContent.style.display = "none";
         FaqContent.style.display = "none";
-        SponsorContent.style.display = "none";
-        FestivalContent.style.display = "none";
+        ContributorContent.style.display = "none";
+        PortalContent.style.display = "block";
         MarketplaceContent.style.display = "none";
-
-
+        document.getElementById('portal-content').scrollIntoView({ behavior: 'smooth', block:'start'});
     });
-    ComDevButton.addEventListener('click', ()=> {
+
+    MarketplaceButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
         YssLiveContent.style.display = "none";
-        MetaNarContent.style.display = "none";
-        ComDevContent.style.display = "block";
-        document.getElementById('community-development-content').scrollIntoView({ behavior: 'smooth', block:'start' });
+        StreamweaverContent.style.display = "none";
+        ReservoirContent.style.display = "none";
         StartContent.style.display = "none";
         FaqContent.style.display = "none";
-        SponsorContent.style.display = "none";
-        FestivalContent.style.display = "none";
-        MarketplaceContent.style.display = "none";
-
-
+        ContributorContent.style.display = "none";
+        PortalContent.style.display = "none";
+        MarketplaceContent.style.display = "block";
+        document.getElementById('marketplace-content').scrollIntoView({ behavior: 'smooth', block:'start'});
     });
-    StartButton.addEventListener('click', ()=> {
+    
+    ContributorButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
         YssLiveContent.style.display = "none";
-        MetaNarContent.style.display = "none";
-        ComDevContent.style.display = "none";
-        StartContent.style.display = "block";
-        document.getElementById('start-content').scrollIntoView({ behavior: 'smooth', block:'start' });
+        StreamweaverContent.style.display = "none";
+        ReservoirContent.style.display = "none";
+        StartContent.style.display = "none";
         FaqContent.style.display = "none";
-        SponsorContent.style.display = "none";
-        FestivalContent.style.display = "none";
+        ContributorContent.style.display = "block";
+        document.getElementById('contributor-page').scrollIntoView({ behavior: 'smooth', block:'start' });
+        PortalContent.style.display = "none";
         MarketplaceContent.style.display = "none";
-
-
     });
 
     FaqButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "none";
         YssLiveContent.style.display = "none";
-        MetaNarContent.style.display = "none";
-        ComDevContent.style.display = "none";
+        StreamweaverContent.style.display = "none";
+        ReservoirContent.style.display = "none";
         StartContent.style.display = "none";
         FaqContent.style.display = "block";
-        SponsorContent.style.display = "none";
+        ContributorContent.style.display = "none";
         document.getElementById('faq').scrollIntoView({ behavior: 'smooth', block:'start' });
-        FestivalContent.style.display = "none";
+        PortalContent.style.display = "none";
         MarketplaceContent.style.display = "none";
-
-
     });
-    SponsorButton.addEventListener('click', ()=> {
-        aboutUsContent.style.display = "none";
-        YssLiveContent.style.display = "none";
-        MetaNarContent.style.display = "none";
-        ComDevContent.style.display = "none";
-        StartContent.style.display = "none";
-        FaqContent.style.display = "none";
-        SponsorContent.style.display = "block";
-        document.getElementById('sponsor-page').scrollIntoView({ behavior: 'smooth', block:'start' });
-        FestivalContent.style.display = "none";
-        MarketplaceContent.style.display = "none";
+    
 
-
-    });
-FestivalButton.addEventListener('click', ()=> {
-    aboutUsContent.style.display = "none";
-    YssLiveContent.style.display = "none";
-    MetaNarContent.style.display = "none";
-    ComDevContent.style.display = "none";
-    StartContent.style.display = "none";
-    FaqContent.style.display = "none";
-    SponsorContent.style.display = "none";
-    FestivalContent.style.display = "block";
-    MarketplaceContent.style.display = "none";
-
-    document.getElementById('festivals-content').scrollIntoView({ behavior: 'smooth', block:'start'});
-});
-
-MarketplaceButton.addEventListener('click', ()=> {
-    aboutUsContent.style.display = "none";
-    YssLiveContent.style.display = "none";
-    MetaNarContent.style.display = "none";
-    ComDevContent.style.display = "none";
-    StartContent.style.display = "none";
-    FaqContent.style.display = "none";
-    SponsorContent.style.display = "none";
-    FestivalContent.style.display = "none";
-    MarketplaceContent.style.display = "block";
-    document.getElementById('marketplace-content').scrollIntoView({ behavior: 'smooth', block:'start'});
-});
 
     // Functionalities for Road Map Node Selectors Per Project
+
+    
 
     // For About Us
     const overlay = document.getElementById('about-content-1-overlay');
@@ -238,6 +237,7 @@ MarketplaceButton.addEventListener('click', ()=> {
         handleClickAbout(`about-content-${i}`, `about-content-${i}-opened`);
     }
 
+
     // For YSS Live
     const yslcoverlay = document.getElementById('yslc-content-overlay');
     function handleClickYslc(buttonId, contentId) {
@@ -256,41 +256,81 @@ MarketplaceButton.addEventListener('click', ()=> {
         handleClickYslc(`yslc-content-${i}`, `yslc-content-${i}-opened`);
     }
 
-    // For Meta Narrative
-    const metacoverlay = document.getElementById('meta-content-overlay');
-    function handleClickMeta(buttonId, contentId) {
+    // For Streamweaver 
+    const streamweaveroverlay = document.getElementById('streamweaver-content-overlay');
+    function handleClickStreamweaver(buttonId, contentId) {
         const button = document.getElementById(buttonId);
         const content = document.getElementById(contentId);
         button.addEventListener('click', () => {
             content.style.display = content.style.display === 'none' ? 'block' : 'none';
-            metacoverlay.style.display = metacoverlay.style.display === 'none' ? 'block' : 'none';
+            streamweaveroverlay.style.display = streamweaveroverlay.style.display === 'none' ? 'block' : 'none';
         });
-        metacoverlay.addEventListener('click', () => {
+        streamweaveroverlay.addEventListener('click', () => {
             content.style.display = 'none';
-            metacoverlay.style.display = 'none';
+            streamweaveroverlay.style.display = 'none';
         });
     }
     for (let i = 1; i <= 4; i++) {
-        handleClickMeta(`meta-content-${i}`, `meta-content-${i}-opened`);
+        handleClickStreamweaver(`streamweaver-content-${i}`, `streamweaver-content-${i}-opened`);
     }
 
-    // For Community Development
-    const comdevoverlay = document.getElementById('comdev-content-overlay');
-    function handleClickComDev(buttonId, contentId) {
+    // For Reservoir
+    const reservoiroverlay = document.getElementById('reservoir-content-overlay');
+    function handleClickReservoir(buttonId, contentId) {
         const button = document.getElementById(buttonId);
         const content = document.getElementById(contentId);
         button.addEventListener('click', () => {
             content.style.display = content.style.display === 'none' ? 'block' : 'none';
-            comdevoverlay.style.display = comdevoverlay.style.display === 'none' ? 'block' : 'none';
+            reservoiroverlay.style.display = reservoiroverlay.style.display === 'none' ? 'block' : 'none';
         });
-        comdevoverlay.addEventListener('click', () => {
+        reservoiroverlay.addEventListener('click', () => {
             content.style.display = 'none';
-            comdevoverlay.style.display = 'none';
+            reservoiroverlay.style.display = 'none';
         });
     }
     // Change increment ie: i <= x for how many nodes exist in the road map (x)
     for (let i = 1; i <= 5; i++) {
-        handleClickComDev(`comdev-content-${i}`, `comdev-content-${i}-opened`);
+        handleClickReservoir(`reservoir-content-${i}`, `reservoir-content-${i}-opened`);
+    }
+
+    // For The Portal
+    const portaloverlay = document.getElementById('portal-content-overlay');
+    function handleClickPortal(buttonId, contentId) {
+
+        const button = document.getElementById(buttonId);
+        const content = document.getElementById(contentId);
+        button.addEventListener('click', () => {
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
+            portaloverlay.style.display = portaloverlay.style.display === 'none' ? 'block' : 'none';
+        });
+        portaloverlay.addEventListener('click', () => {
+            content.style.display = 'none';
+            portaloverlay.style.display = 'none';
+        });
+    }
+    for (let i = 1; i <= 5; i++) {
+
+        handleClickPortal(`portal-content-${i}`, `portal-content-${i}-opened`);
+    }
+
+  // For MarketPlace
+    const mp = document.getElementById('mp-content-overlay');
+    const marketplaceoverlay = document.getElementById('mp-content-overlay');
+    
+    function handleClickMarketplace(buttonId, contentId) {
+        const button = document.getElementById(buttonId);
+        const content = document.getElementById(contentId);
+        button.addEventListener('click', () => {
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
+            marketplaceoverlay.style.display = marketplaceoverlay.style.display === 'none' ? 'block' : 'none';
+        });
+        marketplaceoverlay.addEventListener('click', () => {
+            content.style.display = 'none';
+            marketplaceoverlay.style.display = 'none';
+        });
+    }
+    for (let i = 1; i <= 6; i++) {
+        handleClickMarketplace(`mp-content-${i}`, `mp-content-${i}-opened`);
     }
 
     // For S.T.A.R.T
@@ -311,40 +351,8 @@ MarketplaceButton.addEventListener('click', ()=> {
         handleClickStart(`start-content-${i}`, `start-content-${i}-opened`);
     }
 
-const festivaloverlay = document.getElementById('festivals-content-overlay');
-function handleClickFestival(buttonId, contentId) {
-    const button = document.getElementById(buttonId);
-    const content = document.getElementById(contentId);
-    button.addEventListener('click', () => {
-        content.style.display = content.style.display === 'none' ? 'block' : 'none';
-        festivaloverlay.style.display = festivaloverlay.style.display === 'none' ? 'block' : 'none';
-    });
-    festivaloverlay.addEventListener('click', () => {
-        content.style.display = 'none';
-        festivaloverlay.style.display = 'none';
-    });
-}
-for (let i = 1; i <= 5; i++) {
-    handleClickFestival(`festivals-content-${i}`, `festivals-content-${i}-opened`);
-}
+    
 
-const marketplaceoverlay = document.getElementById('mp-content-overlay');
-
-function handleClickMarketplace(buttonId, contentId) {
-    const button = document.getElementById(buttonId);
-    const content = document.getElementById(contentId);
-    button.addEventListener('click', () => {
-        content.style.display = content.style.display === 'none' ? 'block' : 'none';
-        marketplaceoverlay.style.display = marketplaceoverlay.style.display === 'none' ? 'block' : 'none';
-    });
-    marketplaceoverlay.addEventListener('click', () => {
-        content.style.display = 'none';
-        marketplaceoverlay.style.display = 'none';
-    });
-}
-for (let i = 1; i <= 6; i++) {
-    handleClickMarketplace(`mp-content-${i}`, `mp-content-${i}-opened`);
-}
 
 const videooverlay = document.getElementById('video-overlay');
 function handleClickVideo(buttonId, contentId) {

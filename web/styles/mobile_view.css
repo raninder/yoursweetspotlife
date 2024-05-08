@@ -107,8 +107,10 @@
     }
 
     .proj-desc{
+        border:2px solid red;
         justify-content: center;
-        width:60%;
+        align-items: center;
+        width:70%;
         /* text-align:justify; */
         font-family: 'Roboto', sans-serif;
         font-size: 1.2em;
@@ -282,6 +284,7 @@
     #start-content{
         display: none;
         justify-content: center;
+        align-items: center;
         text-align: center;
         height: auto;
         margin-top: 5%;
@@ -304,9 +307,9 @@
     }
 
     .road-map{
-        width:50%;
+        width:60%;
         height:100rem;
-        /* margin-left: 8%; */
+        margin-left: 24%;
         margin-top: 3%;
         /* text-align: center;
         justify-content: center; */

@@ -18,6 +18,7 @@
     const FestivalContent = document.getElementById("festivals-content");
     const FestivalButton = document.getElementById("festivals-button");
 
+
 // Button Functionalities for road map project selector
     aboutUsButton.addEventListener('click', ()=> {
         aboutUsContent.style.display = "block";
@@ -145,6 +146,7 @@ FestivalButton.addEventListener('click', ()=> {
         const button = document.getElementById(buttonId);
         const content = document.getElementById(contentId);
         button.addEventListener('click', () => {
+            console.log("hi")
             content.style.display = content.style.display === 'none' ? 'block' : 'none';
             yslcoverlay.style.display = yslcoverlay.style.display === 'none' ? 'block' : 'none';
         });
@@ -212,20 +214,22 @@ FestivalButton.addEventListener('click', ()=> {
         handleClickStart(`start-content-${i}`, `start-content-${i}-opened`);
     }
 
-const festivaloverlay = document.getElementById('festivals-content-overlay');
-function handleClickFestival(buttonId, contentId) {
-    const button = document.getElementById(buttonId);
-    const content = document.getElementById(contentId);
-    button.addEventListener('click', () => {
-        content.style.display = content.style.display === 'none' ? 'block' : 'none';
-        festivaloverlay.style.display = festivaloverlay.style.display === 'none' ? 'block' : 'none';
-    });
-    festivaloverlay.addEventListener('click', () => {
-        content.style.display = 'none';
-        festivaloverlay.style.display = 'none';
-    });
-}
-for (let i = 1; i <= 5; i++) {
-    handleClickFestival(`festivals-content-${i}`, `festivals-content-${i}-opened`);
-}
+    const festivaloverlay = document.getElementById('festivals-content-overlay');
+
+    function handleClickFestival(buttonId, contentId) {
+        const button = document.getElementById(buttonId);
+        const content = document.getElementById(contentId);
+        button.addEventListener('click', () => {
+            console.log("hi")
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
+            festivaloverlay.style.display = festivaloverlay.style.display === 'none' ? 'block' : 'none';
+        });
+        festivaloverlay.addEventListener('click', () => {
+            content.style.display = 'none';
+            festivaloverlay.style.display = 'none';
+        });
+    }
+    for (let i = 1; i <= 5; i++) {
+        handleClickFestival(`festivals-content-${i}`, `festivals-content-${i}-opened`);
+    }
 
